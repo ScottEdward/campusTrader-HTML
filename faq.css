@@ -187,6 +187,19 @@
   font-family: "Times New Roman";
   text-decoration: none;
 }
+.faq-container1 {
+  width: 1035px;
+  height: 584px;
+  display: flex;
+  align-self: center;
+  margin-top: 200px;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.faq-text5 {
+  font-size: 22px;
+}
 @media(max-width: 767px) {
   .faq-navbar-interactive {
     padding-left: var(--dl-space-space-twounits);
