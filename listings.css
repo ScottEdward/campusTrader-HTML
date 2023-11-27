@@ -45,8 +45,8 @@
   justify-content: center;
 }
 .listings-navlink {
-  top: -25px;
-  left: 28px;
+  top: -27px;
+  left: 46px;
   width: var(--dl-size-size-medium);
   z-index: 100;
   position: absolute;
@@ -324,7 +324,10 @@
   border-color: #2335f5;
   background-color: rgb(46, 56, 253);
 }
-.listings-text12 {
+.listings-navlink4 {
+  text-decoration: none;
+}
+.listings-text11 {
   top: 9px;
   left: 9px;
   color: rgb(255, 255, 255);
@@ -382,7 +385,7 @@
   margin-right: 6px;
   background-color: rgb(14, 35, 255);
 }
-.listings-text18 {
+.listings-text17 {
   margin-left: 20px;
   margin-bottom: 5px;
 }
@@ -444,7 +447,10 @@
   border-color: #2335f5;
   background-color: rgb(46, 56, 253);
 }
-.listings-text22 {
+.listings-navlink5 {
+  text-decoration: none;
+}
+.listings-text20 {
   top: 9px;
   left: 9px;
   color: rgb(255, 255, 255);
@@ -505,7 +511,7 @@
   margin-right: 6px;
   background-color: rgb(14, 35, 255);
 }
-.listings-text28 {
+.listings-text26 {
   margin-left: 20px;
   margin-bottom: 5px;
 }
@@ -556,7 +562,7 @@
   margin-left: var(--dl-space-space-halfunit);
   background-color: transparent;
 }
-.listings-button6 {
+.listings-navlink6 {
   left: 114px;
   color: rgb(255, 255, 255);
   width: 125px;
@@ -565,9 +571,10 @@
   position: absolute;
   font-weight: bold;
   border-color: #2335f5;
+  text-decoration: none;
   background-color: rgb(46, 56, 253);
 }
-.listings-text32 {
+.listings-text30 {
   top: 9px;
   left: 9px;
   color: rgb(255, 255, 255);
@@ -616,7 +623,7 @@
   height: 50%;
   align-self: center;
 }
-.listings-button7 {
+.listings-button6 {
   color: rgb(156, 13, 13);
   right: 5px;
   bottom: 4px;
@@ -625,7 +632,7 @@
   margin-right: 6px;
   background-color: rgb(14, 35, 255);
 }
-.listings-text39 {
+.listings-text37 {
   margin-left: 20px;
   margin-bottom: 5px;
 }
@@ -676,7 +683,7 @@
   margin-left: var(--dl-space-space-halfunit);
   background-color: transparent;
 }
-.listings-button8 {
+.listings-navlink7 {
   left: 114px;
   color: rgb(255, 255, 255);
   width: 125px;
@@ -685,9 +692,10 @@
   position: absolute;
   font-weight: bold;
   border-color: #2335f5;
+  text-decoration: none;
   background-color: rgb(46, 56, 253);
 }
-.listings-text43 {
+.listings-text41 {
   top: 9px;
   left: 9px;
   color: rgb(255, 255, 255);

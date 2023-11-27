@@ -41,7 +41,7 @@
 }
 .my-listings-navlink {
   top: -27px;
-  left: 32px;
+  left: 41px;
   width: var(--dl-size-size-medium);
   z-index: 100;
   position: absolute;
@@ -177,12 +177,14 @@
   text-decoration: none;
 }
 .my-listings-register1 {
+  color: #ffffff;
   font-family: "Times New Roman";
   text-decoration: none;
+  background-color: #3e48ff;
 }
 .my-listings-container01 {
   width: 1243px;
-  height: 334px;
+  height: 504px;
   display: flex;
   align-self: center;
   margin-top: 200px;
@@ -253,6 +255,16 @@
   font-weight: bold;
   border-color: #2335f5;
   background-color: rgb(46, 56, 253);
+}
+.my-listings-navlink4 {
+  color: rgb(255, 255, 255);
+  width: 300px;
+  height: 100px;
+  font-size: 20px;
+  margin-top: 50px;
+  font-weight: bold;
+  text-decoration: none;
+  background-color: rgb(52, 54, 255);
 }
 .my-listings-container03 {
   width: 1227px;

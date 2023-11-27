@@ -42,7 +42,7 @@
 }
 .home-navlink {
   top: -27px;
-  left: 29px;
+  left: 42px;
   width: var(--dl-size-size-medium);
   z-index: 100;
   position: absolute;
@@ -178,8 +178,10 @@
   text-decoration: none;
 }
 .home-register1 {
+  color: #ffffff;
   font-family: "Times New Roman";
   text-decoration: none;
+  background-color: #355fff;
 }
 .home-container1 {
   width: 352px;
