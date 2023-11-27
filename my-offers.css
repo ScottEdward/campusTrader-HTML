@@ -267,7 +267,7 @@
   padding-left: 5px;
   padding-bottom: 5px;
 }
-.my-offers-text28 {
+.my-offers-text26 {
   margin-left: 5px;
   margin-right: 5px;
 }
@@ -282,14 +282,30 @@
   border-width: 2px;
   border-radius: 14px;
   flex-direction: column;
-  justify-content: flex-start;
+  justify-content: center;
   background-color: rgba(54, 56, 234, 0.09);
 }
-.my-offers-text29 {
-  align-self: center;
-  margin-top: 80px;
+.my-offers-button1 {
+  top: 56px;
+  left: 191px;
+  color: rgb(255, 255, 255);
+  width: 108px;
+  height: 82px;
+  position: absolute;
+  font-size: 18px;
+  text-align: center;
+  font-weight: bold;
+  border-color: #2335f5;
+  background-color: rgb(46, 56, 253);
 }
 .my-offers-text30 {
+  top: 82px;
+  left: 66px;
+  position: absolute;
+  align-self: center;
+  text-align: center;
+}
+.my-offers-text34 {
   top: 9px;
   left: 9px;
   color: rgb(255, 255, 255);
@@ -338,24 +354,11 @@
   justify-content: flex-start;
   background-color: rgba(54, 56, 234, 0.09);
 }
-.my-offers-button1 {
-  top: 31px;
-  color: rgb(255, 255, 255);
-  right: 18px;
-  width: 115px;
-  height: 70px;
-  position: absolute;
-  font-size: 18px;
-  text-align: center;
-  font-weight: bold;
-  border-color: #2335f5;
-  background-color: rgb(46, 56, 253);
-}
-.my-offers-text36 {
+.my-offers-text37 {
   align-self: center;
   text-decoration: underline;
 }
-.my-offers-text37 {
+.my-offers-text40 {
   width: var(--dl-size-size-large);
   margin-top: 10px;
   margin-left: 20px;
@@ -365,7 +368,7 @@
   padding-left: 5px;
   padding-bottom: 5px;
 }
-.my-offers-text46 {
+.my-offers-text49 {
   width: 275px;
   margin-top: 10px;
   margin-left: 20px;
@@ -375,7 +378,7 @@
   padding-left: 5px;
   padding-bottom: 5px;
 }
-.my-offers-text51 {
+.my-offers-text52 {
   margin-left: 5px;
   margin-right: 5px;
 }
@@ -393,43 +396,23 @@
   justify-content: flex-start;
   background-color: rgba(54, 56, 234, 0.09);
 }
-.my-offers-textinput {
-  width: 200px;
-  height: 35px;
-  margin-top: var(--dl-space-space-oneandhalfunits);
-  margin-left: var(--dl-space-space-halfunit);
-  background-color: transparent;
-}
-.my-offers-select {
-  width: 200px;
-  height: 30px;
-  margin-top: var(--dl-space-space-halfunit);
-  margin-left: var(--dl-space-space-halfunit);
-  border-color: var(--dl-color-gray-black);
-  border-width: 1px;
-  border-radius: 4px;
-  background-color: transparent;
-}
-.my-offers-select1 {
-  width: 200px;
-  height: 30px;
-  margin-top: var(--dl-space-space-halfunit);
-  margin-left: var(--dl-space-space-halfunit);
-  border-color: var(--dl-color-gray-black);
-  border-width: 1px;
-  border-radius: 4px;
-  background-color: transparent;
-}
-.my-offers-textinput1 {
-  width: 200px;
-  margin-top: var(--dl-space-space-halfunit);
-  margin-left: var(--dl-space-space-halfunit);
-  background-color: transparent;
-}
 .my-offers-button2 {
-  top: 58px;
   color: rgb(255, 255, 255);
-  right: 3px;
+  right: 34px;
+  width: 108px;
+  bottom: 13px;
+  height: 82px;
+  position: absolute;
+  font-size: 18px;
+  text-align: center;
+  font-weight: bold;
+  border-color: #2335f5;
+  background-color: rgb(46, 56, 253);
+}
+.my-offers-button3 {
+  top: 9px;
+  color: rgb(255, 255, 255);
+  right: 34px;
   width: 108px;
   height: 82px;
   position: absolute;
@@ -439,7 +422,13 @@
   border-color: #2335f5;
   background-color: rgb(46, 56, 253);
 }
-.my-offers-text55 {
+.my-offers-text59 {
+  top: 69px;
+  left: 54px;
+  position: absolute;
+  text-align: center;
+}
+.my-offers-text66 {
   top: 9px;
   left: 9px;
   color: rgb(255, 255, 255);
@@ -488,11 +477,24 @@
   justify-content: flex-start;
   background-color: rgba(54, 56, 234, 0.09);
 }
-.my-offers-text58 {
+.my-offers-button4 {
+  top: 31px;
+  color: rgb(255, 255, 255);
+  right: 18px;
+  width: 115px;
+  height: 70px;
+  position: absolute;
+  font-size: 18px;
+  text-align: center;
+  font-weight: bold;
+  border-color: #2335f5;
+  background-color: rgb(46, 56, 253);
+}
+.my-offers-text72 {
   align-self: center;
   text-decoration: underline;
 }
-.my-offers-text61 {
+.my-offers-text73 {
   width: var(--dl-size-size-large);
   margin-top: 10px;
   margin-left: 20px;
@@ -502,7 +504,7 @@
   padding-left: 5px;
   padding-bottom: 5px;
 }
-.my-offers-text70 {
+.my-offers-text82 {
   width: 275px;
   margin-top: 10px;
   margin-left: 20px;
@@ -512,7 +514,7 @@
   padding-left: 5px;
   padding-bottom: 5px;
 }
-.my-offers-text75 {
+.my-offers-text85 {
   margin-left: 5px;
   margin-right: 5px;
 }
@@ -530,10 +532,43 @@
   justify-content: flex-start;
   background-color: rgba(54, 56, 234, 0.09);
 }
-.my-offers-button3 {
-  top: 56px;
+.my-offers-textinput {
+  width: 200px;
+  height: 35px;
+  margin-top: var(--dl-space-space-oneandhalfunits);
+  margin-left: var(--dl-space-space-halfunit);
+  background-color: transparent;
+}
+.my-offers-select {
+  width: 200px;
+  height: 30px;
+  margin-top: var(--dl-space-space-halfunit);
+  margin-left: var(--dl-space-space-halfunit);
+  border-color: var(--dl-color-gray-black);
+  border-width: 1px;
+  border-radius: 4px;
+  background-color: transparent;
+}
+.my-offers-select1 {
+  width: 200px;
+  height: 30px;
+  margin-top: var(--dl-space-space-halfunit);
+  margin-left: var(--dl-space-space-halfunit);
+  border-color: var(--dl-color-gray-black);
+  border-width: 1px;
+  border-radius: 4px;
+  background-color: transparent;
+}
+.my-offers-textinput1 {
+  width: 200px;
+  margin-top: var(--dl-space-space-halfunit);
+  margin-left: var(--dl-space-space-halfunit);
+  background-color: transparent;
+}
+.my-offers-button5 {
+  top: 58px;
   color: rgb(255, 255, 255);
-  right: 43px;
+  right: 9px;
   width: 108px;
   height: 82px;
   position: absolute;
@@ -543,13 +578,7 @@
   border-color: #2335f5;
   background-color: rgb(46, 56, 253);
 }
-.my-offers-text79 {
-  top: 69px;
-  left: 54px;
-  position: absolute;
-  text-align: center;
-}
-.my-offers-text86 {
+.my-offers-text89 {
   top: 9px;
   left: 9px;
   color: rgb(255, 255, 255);
