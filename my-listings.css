@@ -407,10 +407,12 @@
   position: absolute;
   font-size: 18px;
   text-align: center;
+  transition: 0.3s;
   font-weight: bold;
   border-color: #2335f5;
   background-color: rgb(46, 56, 253);
 }
+
 .my-listings-text38 {
   top: 9px;
   left: 9px;
@@ -725,6 +727,22 @@
   border-radius: 14px;
   text-transform: capitalize;
   background-color: rgb(50, 45, 247);
+}
+@media(max-width: 1200px) {
+  .my-listings-container01 {
+    width: 100%;
+  }
+  .my-listings-container03 {
+    width: 100%;
+    height: 1342px;
+  }
+  .my-listings-text35 {
+    animation-delay: 0s;
+    animation-duration: 300ms;
+    animation-direction: normal;
+    animation-iteration-count: 1;
+    animation-timing-function: ease;
+  }
 }
 @media(max-width: 767px) {
   .my-listings-navbar-interactive {

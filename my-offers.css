@@ -593,6 +593,14 @@
   text-transform: capitalize;
   background-color: rgb(50, 45, 247);
 }
+@media(max-width: 1200px) {
+  .my-offers-container1 {
+    width: 100%;
+  }
+  .my-offers-text27 {
+    color: var(--dl-color-gray-white);
+  }
+}
 @media(max-width: 767px) {
   .my-offers-navbar-interactive {
     padding-left: var(--dl-space-space-twounits);

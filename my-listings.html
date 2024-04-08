@@ -1,16 +1,15 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <title>my-listings - campusTrader</title>
-    <meta property="og:title" content="my-listings - campusTrader" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta charset="utf-8" />
-    <meta property="twitter:card" content="summary_large_image" />
-
-    <style data-tag="reset-style-sheet">
-      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}html { scroll-behavior: smooth  }
-    </style>
-    <style data-tag="default-style-sheet">
+<html lang="en"
+  ><head
+    ><title>my-listings - campusTrader</title
+    ><meta property="og:title" content="my-listings - campusTrader" /><meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0" /><meta
+      charset="utf-8" /><meta
+      property="twitter:card"
+      content="summary_large_image" /><style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}html { scroll-behavior: smooth  }</style
+    ><style data-tag="default-style-sheet">
       html {
         font-family: "Times New Roman";
         font-size: 16px;
@@ -26,71 +25,60 @@
         color: var(--dl-color-gray-black);
         background-color: var(--dl-color-gray-white);
 
-      }
-    </style>
-    <link
+      }</style
+    ><link
+      rel="stylesheet"
+      href="https://unpkg.com/animate.css@4.1.1/animate.css" /><link
       rel="shortcut icon"
       href="public/campustrader-favicon.png"
       type="icon/png"
-      sizes="32x32"
-    />
-    <link
+      sizes="32x32" /><link
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
-      data-tag="font"
-    />
-  </head>
-  <body>
-    <link rel="stylesheet" href="./style.css" />
-    <div>
-      <link href="./my-listings.css" rel="stylesheet" />
-
-      <div class="my-listings-container">
-        <header data-thq="thq-navbar" class="my-listings-navbar-interactive">
-          <div data-thq="thq-navbar-nav" class="my-listings-desktop-menu">
-            <nav class="my-listings-links">
-              <a href="my-listings.html" class="my-listings-navlink">
-                My Listings
-              </a>
-            </nav>
-          </div>
-          <div data-thq="thq-burger-menu" class="my-listings-menu">
-            <svg viewBox="0 0 1024 1024" class="my-listings-icon">
+      data-tag="font" /><link
+      rel="stylesheet"
+      href="https://unpkg.com/@teleporthq/teleport-custom-scripts/dist/style.css" /></head
+  ><body
+    ><link rel="stylesheet" href="./style.css" /><div
+      ><link href="./my-listings.css" rel="stylesheet" /><div
+        class="my-listings-container"
+        ><header data-thq="thq-navbar" class="my-listings-navbar-interactive"
+          ><div data-thq="thq-navbar-nav" class="my-listings-desktop-menu"
+            ><nav class="my-listings-links"
+              ><a href="my-listings.html" class="my-listings-navlink"
+                >My Listings</a
+              ></nav
+            ></div
+          ><div data-thq="thq-burger-menu" class="my-listings-menu"
+            ><svg viewBox="0 0 1024 1024" class="my-listings-icon">
               <path
                 d="M128 554.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 298.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 810.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z"
-              ></path>
-            </svg>
-          </div>
-          <div data-thq="thq-mobile-menu" class="my-listings-mobile-menu">
-            <div class="my-listings-nav">
-              <div class="my-listings-top">
-                <img
+              ></path></svg></div
+          ><div data-thq="thq-mobile-menu" class="my-listings-mobile-menu"
+            ><div class="my-listings-nav"
+              ><div class="my-listings-top"
+                ><img
                   alt="image"
                   src="https://presentation-website-assets.teleporthq.io/logos/logo.png"
-                  class="my-listings-logo"
-                />
-                <div data-thq="thq-close-menu" class="my-listings-close-menu">
-                  <svg viewBox="0 0 1024 1024" class="my-listings-icon02">
+                  class="my-listings-logo" /><div
+                  data-thq="thq-close-menu"
+                  class="my-listings-close-menu"
+                  ><svg viewBox="0 0 1024 1024" class="my-listings-icon02">
                     <path
                       d="M810 274l-238 238 238 238-60 60-238-238-238 238-60-60 238-238-238-238 60-60 238 238 238-238z"
-                    ></path>
-                  </svg>
-                </div>
-              </div>
-              <nav class="my-listings-links1">
-                <span class="my-listings-text">About</span>
-                <span class="my-listings-text01">Features</span>
-                <span class="my-listings-text02">Pricing</span>
-                <span class="my-listings-text03">Team</span>
-                <span class="my-listings-text04">Blog</span>
-              </nav>
-              <div class="my-listings-buttons">
-                <button class="my-listings-login button">Login</button>
-                <button class="button">Register</button>
-              </div>
-            </div>
-            <div>
-              <svg
+                    ></path></svg></div></div
+              ><nav class="my-listings-links1"
+                ><span class="my-listings-text">About</span
+                ><span class="my-listings-text01">Features</span
+                ><span class="my-listings-text02">Pricing</span
+                ><span class="my-listings-text03">Team</span
+                ><span class="my-listings-text04">Blog</span></nav
+              ><div class="my-listings-buttons"
+                ><button class="my-listings-login button">Login</button
+                ><button class="button">Register</button></div
+              ></div
+            ><div
+              ><svg
                 viewBox="0 0 950.8571428571428 1024"
                 class="my-listings-icon04"
               >
@@ -110,357 +98,249 @@
               >
                 <path
                   d="M548 6.857v150.857h-89.714c-70.286 0-83.429 33.714-83.429 82.286v108h167.429l-22.286 169.143h-145.143v433.714h-174.857v-433.714h-145.714v-169.143h145.714v-124.571c0-144.571 88.571-223.429 217.714-223.429 61.714 0 114.857 4.571 130.286 6.857z"
-                ></path>
-              </svg>
-            </div>
-          </div>
-          <a href="index.html" class="my-listings-navlink1">
-            <img
+                ></path></svg></div></div
+          ><a href="index.html" class="my-listings-navlink1"
+            ><img
               alt="image"
               src="public/campustrader-logo1-200h.png"
-              class="my-listings-logo1"
-            />
-          </a>
-          <a href="login.html" class="my-listings-login1 button">Login</a>
-          <a href="my-offers.html" class="my-listings-navlink2">My Offers</a>
-          <a href="faq.html" class="my-listings-navlink3">FAQs</a>
-          <a href="signup.html" class="my-listings-register1 button">Sign Up</a>
-        </header>
-        <div class="my-listings-container01">
-          <h1 class="my-listings-text05">My Listings</h1>
-          <form class="my-listings-form">
-            <img
+              class="my-listings-logo1" /></a
+          ><a href="login.html" class="my-listings-login1 button">Login</a
+          ><a href="my-offers.html" class="my-listings-navlink2">My Offers</a
+          ><a href="faq.html" class="my-listings-navlink3">FAQs</a
+          ><a href="signup.html" class="my-listings-register1 button"
+            >Sign Up</a
+          ></header
+        ><div class="my-listings-container01"
+          ><h1 class="my-listings-text05">My Listings</h1
+          ><form class="my-listings-form"
+            ><img
               alt="image"
               src="public/external/surface-300h-300h.png"
-              class="my-listings-image"
-            />
-            <div class="my-listings-container02">
-              <ul class="my-listings-ul list">
-                <li class="list-item"><h2>Surface Laptop Charger</h2></li>
-                <li class="list-item"><span>Condition: Lightly Used</span></li>
-                <li class="list-item">
-                  <span>
-                    Description: Surface 2 magnetic charger works with all
-                    models and things. Good design, very human.
-                  </span>
-                </li>
-              </ul>
-            </div>
-            <label class="my-listings-text09">
-              <span>$22</span>
-              <br />
-            </label>
-            <button
+              class="my-listings-image" /><div class="my-listings-container02"
+              ><ul class="my-listings-ul list"
+                ><li class="list-item"><h2>Surface Laptop Charger</h2></li
+                ><li class="list-item"><span>Condition: Lightly Used</span></li
+                ><li class="list-item"
+                  ><span
+                    >Description: Surface 2 magnetic charger works with all
+                    models and things. Good design, very human.</span
+                  ></li
+                ></ul
+              ></div
+            ><label class="my-listings-text09"><span>$22</span><br /></label
+            ><button
               name="Submit Offer"
               type="button"
               class="my-listings-button button"
-            >
-              <span>
-                <span>Edit Listing</span>
-                <br />
-              </span>
-            </button>
-          </form>
-          <a href="upload-new.html" class="my-listings-navlink4 button">
-            Upload New Listing
-          </a>
-        </div>
-        <div class="my-listings-container03">
-          <h1 class="my-listings-text15">Offers received on My Listings</h1>
-          <form class="my-listings-form1">
-            <img
+              ><span><span>Edit Listing</span><br /></span></button></form
+          ><a href="upload-new.html" class="my-listings-navlink4 button"
+            >Upload New Listing</a
+          ></div
+        ><div class="my-listings-container03"
+          ><h1 class="my-listings-text15">Offers received on My Listings</h1
+          ><form class="my-listings-form1"
+            ><img
               alt="image"
               src="public/external/surface-300h-300h.png"
-              class="my-listings-image1"
-            />
-            <section class="my-listings-container04">
-              <button
+              class="my-listings-image1" /><section
+              class="my-listings-container04"
+              ><button
                 name="Submit Offer"
                 type="button"
                 class="my-listings-button1 button"
-              >
-                <span>
-                  <span>Accept Offer</span>
-                  <br />
-                </span>
-              </button>
-              <span class="my-listings-text19">Buyer's Offer</span>
-              <span class="my-listings-text20">
-                <span>10/29/2023</span>
-                <br />
-                <span>Langsam Library</span>
-                <br />
-                <span>Venmo</span>
-                <br />
-                <span>$18</span>
-                <br />
-              </span>
-              <span class="my-listings-text29">
-                <span>Time Requested: 10/29/2023 14:00</span>
-                <br />
-                <span>Buyer Rating: 1.2/5 (53)</span>
-                <br />
-              </span>
-            </section>
-            <span class="my-listings-text34">OR</span>
-            <section class="my-listings-container05">
-              <input
+                ><span><span>Accept Offer</span><br /></span></button
+              ><span class="my-listings-text19">Buyer's Offer </span
+              ><span class="my-listings-text20"
+                ><span>10/29/2023</span><br /><span>Langsam Library</span
+                ><br /><span>Venmo</span><br /><span>$18</span><br /></span
+              ><span class="my-listings-text29"
+                ><span>Time Requested: 10/29/2023 14:00</span><br /><span
+                  >Buyer Rating: 1.2/5 (53)</span
+                ><br /></span></section
+            ><span class="my-listings-text34">OR</span
+            ><section class="my-listings-container05"
+              ><input
                 type="datetime-local"
                 placeholder="placeholder"
-                class="my-listings-textinput input"
-              />
-              <select class="my-listings-select">
-                <option value="Option 1">Option 1</option>
-                <option value="Option 1">Option 1</option>
-                <option value="Option 2">Option 2</option>
-                <option value="Option 2">Option 2</option>
-                <option value="Option 3">Option 3</option>
-                <option value="Option 3">Option 3</option>
-                <option value="null" selected="">Place</option>
-                <option value="Option 1">Option 1</option>
-                <option value="loc1">Langsam Library</option>
-                <option value="Option 2">Option 2</option>
-                <option value="Option 3">Option 3</option>
-              </select>
-              <select class="my-listings-select1">
-                <option value="Option 1">Option 1</option>
-                <option value="Option 1">Option 1</option>
-                <option value="Option 2">Option 2</option>
-                <option value="Option 2">Option 2</option>
-                <option value="Option 3">Option 3</option>
-                <option value="Option 3">Option 3</option>
-                <option value="null" selected="">Payment Method</option>
-                <option value="Option 1">Option 1</option>
-                <option value="popt1">Cash</option>
-                <option value="Option 2">Option 2</option>
-                <option value="popt2">Venmo</option>
-                <option value="Option 3">Option 3</option>
-                <option value="popt3">CashApp</option>
-                <option value="opot4">Zelle</option>
-              </select>
-              <input
+                class="my-listings-textinput input" /><select
+                class="my-listings-select"
+                ><option value="Option 1">Option 1</option
+                ><option value="Option 1">Option 1</option
+                ><option value="Option 2">Option 2</option
+                ><option value="Option 2">Option 2</option
+                ><option value="Option 3">Option 3</option
+                ><option value="Option 3">Option 3</option
+                ><option value="null" selected="">Place</option
+                ><option value="Option 1">Option 1</option
+                ><option value="loc1">Langsam Library</option
+                ><option value="Option 2">Option 2</option
+                ><option value="Option 3">Option 3</option></select
+              ><select class="my-listings-select1"
+                ><option value="Option 1">Option 1</option
+                ><option value="Option 1">Option 1</option
+                ><option value="Option 2">Option 2</option
+                ><option value="Option 2">Option 2</option
+                ><option value="Option 3">Option 3</option
+                ><option value="Option 3">Option 3</option
+                ><option value="null" selected="">Payment Method</option
+                ><option value="Option 1">Option 1</option
+                ><option value="popt1">Cash</option
+                ><option value="Option 2">Option 2</option
+                ><option value="popt2">Venmo</option
+                ><option value="Option 3">Option 3</option
+                ><option value="popt3">CashApp</option
+                ><option value="opot4">Zelle</option></select
+              ><input
                 type="text"
                 placeholder="$"
-                class="my-listings-textinput1 input"
-              />
-              <button
+                class="my-listings-textinput1 input" /><button
                 name="Submit Offer"
                 type="button"
                 class="my-listings-button2 button"
-              >
-                <span>
-                  <span>Counter Offer</span>
-                  <br />
-                </span>
-              </button>
-            </section>
-            <label class="my-listings-text38">
-              <span>Surface Laptop Charger</span>
-              <br />
-            </label>
-          </form>
-          <form class="my-listings-form2">
-            <img
+                ><span class="my-listings-text35"
+                  ><span>Counter Offer</span><br /></span></button></section
+            ><label class="my-listings-text38"
+              ><span>Surface Laptop Charger</span><br /></label></form
+          ><form class="my-listings-form2"
+            ><img
               alt="image"
               src="public/external/surface-300h-300h.png"
-              class="my-listings-image2"
-            />
-            <section class="my-listings-container06">
-              <button
+              class="my-listings-image2" /><section
+              class="my-listings-container06"
+              ><button
                 name="Submit Offer"
                 type="button"
                 class="my-listings-button3 button"
-              >
-                <span>
-                  <span>Accept Offer</span>
-                  <br />
-                </span>
-              </button>
-              <span class="my-listings-text44">Buyer's Offer</span>
-              <span class="my-listings-text45">
-                <span>10/29/2023</span>
-                <br />
-                <span>CCM Library</span>
-                <br />
-                <span>Cash</span>
-                <br />
-                <span>$50</span>
-                <br />
-              </span>
-              <span class="my-listings-text54">
-                <span>Time Requested: 10/29/2023 15:54</span>
-                <br />
-                <span>Buyer Rating: 4.3/5 (25)</span>
-                <br />
-              </span>
-            </section>
-            <span class="my-listings-text59">OR</span>
-            <section class="my-listings-container07">
-              <input
+                ><span><span>Accept Offer</span><br /></span></button
+              ><span class="my-listings-text44">Buyer's Offer </span
+              ><span class="my-listings-text45"
+                ><span>10/29/2023</span><br /><span>CCM Library</span
+                ><br /><span>Cash</span><br /><span>$50</span><br /></span
+              ><span class="my-listings-text54"
+                ><span>Time Requested: 10/29/2023 15:54</span><br /><span
+                  >Buyer Rating: 4.3/5 (25)</span
+                ><br /></span></section
+            ><span class="my-listings-text59">OR</span
+            ><section class="my-listings-container07"
+              ><input
                 type="datetime-local"
                 placeholder="placeholder"
-                class="my-listings-textinput2 input"
-              />
-              <select class="my-listings-select2">
-                <option value="Option 1">Option 1</option>
-                <option value="Option 1">Option 1</option>
-                <option value="Option 1">Option 1</option>
-                <option value="Option 2">Option 2</option>
-                <option value="Option 2">Option 2</option>
-                <option value="Option 2">Option 2</option>
-                <option value="Option 3">Option 3</option>
-                <option value="Option 3">Option 3</option>
-                <option value="Option 3">Option 3</option>
-                <option value="null" selected="">Place</option>
-                <option value="Option 1">Option 1</option>
-                <option value="loc1">Langsam Library</option>
-                <option value="Option 2">Option 2</option>
-                <option value="Option 3">Option 3</option>
-              </select>
-              <select class="my-listings-select3">
-                <option value="Option 1">Option 1</option>
-                <option value="Option 1">Option 1</option>
-                <option value="Option 1">Option 1</option>
-                <option value="Option 2">Option 2</option>
-                <option value="Option 2">Option 2</option>
-                <option value="Option 2">Option 2</option>
-                <option value="Option 3">Option 3</option>
-                <option value="Option 3">Option 3</option>
-                <option value="Option 3">Option 3</option>
-                <option value="null" selected="">Payment Method</option>
-                <option value="Option 1">Option 1</option>
-                <option value="popt1">Cash</option>
-                <option value="Option 2">Option 2</option>
-                <option value="popt2">Venmo</option>
-                <option value="Option 3">Option 3</option>
-                <option value="popt3">CashApp</option>
-                <option value="opot4">Zelle</option>
-              </select>
-              <input
+                class="my-listings-textinput2 input" /><select
+                class="my-listings-select2"
+                ><option value="Option 1">Option 1</option
+                ><option value="Option 1">Option 1</option
+                ><option value="Option 1">Option 1</option
+                ><option value="Option 2">Option 2</option
+                ><option value="Option 2">Option 2</option
+                ><option value="Option 2">Option 2</option
+                ><option value="Option 3">Option 3</option
+                ><option value="Option 3">Option 3</option
+                ><option value="Option 3">Option 3</option
+                ><option value="null" selected="">Place</option
+                ><option value="Option 1">Option 1</option
+                ><option value="loc1">Langsam Library</option
+                ><option value="Option 2">Option 2</option
+                ><option value="Option 3">Option 3</option></select
+              ><select class="my-listings-select3"
+                ><option value="Option 1">Option 1</option
+                ><option value="Option 1">Option 1</option
+                ><option value="Option 1">Option 1</option
+                ><option value="Option 2">Option 2</option
+                ><option value="Option 2">Option 2</option
+                ><option value="Option 2">Option 2</option
+                ><option value="Option 3">Option 3</option
+                ><option value="Option 3">Option 3</option
+                ><option value="Option 3">Option 3</option
+                ><option value="null" selected="">Payment Method</option
+                ><option value="Option 1">Option 1</option
+                ><option value="popt1">Cash</option
+                ><option value="Option 2">Option 2</option
+                ><option value="popt2">Venmo</option
+                ><option value="Option 3">Option 3</option
+                ><option value="popt3">CashApp</option
+                ><option value="opot4">Zelle</option></select
+              ><input
                 type="text"
                 placeholder="$"
-                class="my-listings-textinput3 input"
-              />
-              <button
+                class="my-listings-textinput3 input" /><button
                 name="Submit Offer"
                 type="button"
                 class="my-listings-button4 button"
-              >
-                <span>
-                  <span>Counter Offer</span>
-                  <br />
-                </span>
-              </button>
-            </section>
-            <label class="my-listings-text63">
-              <span>Surface Laptop Charger</span>
-              <br />
-            </label>
-          </form>
-          <form class="my-listings-form3">
-            <img
+                ><span><span>Counter Offer</span><br /></span></button></section
+            ><label class="my-listings-text63"
+              ><span>Surface Laptop Charger</span><br /></label></form
+          ><form class="my-listings-form3"
+            ><img
               alt="image"
               src="public/external/surface-300h-300h.png"
-              class="my-listings-image3"
-            />
-            <section class="my-listings-container08">
-              <button
+              class="my-listings-image3" /><section
+              class="my-listings-container08"
+              ><button
                 name="Submit Offer"
                 type="button"
                 class="my-listings-button5 button"
-              >
-                <span>
-                  <span>Accept Offer</span>
-                  <br />
-                </span>
-              </button>
-              <span class="my-listings-text69">Buyer's Offer</span>
-              <span class="my-listings-text70">
-                <span>10/29/2023</span>
-                <br />
-                <span>Langsam Library</span>
-                <br />
-                <span>Venmo</span>
-                <br />
-                <span>$15</span>
-                <br />
-              </span>
-              <span class="my-listings-text79">
-                <span>Time Requested: 10/29/2023 16:00</span>
-                <br />
-                <span>Buyer Rating: 3/5 (2)</span>
-                <br />
-              </span>
-            </section>
-            <span class="my-listings-text84">OR</span>
-            <section class="my-listings-container09">
-              <input
+                ><span><span>Accept Offer</span><br /></span></button
+              ><span class="my-listings-text69">Buyer's Offer </span
+              ><span class="my-listings-text70"
+                ><span>10/29/2023</span><br /><span>Langsam Library</span
+                ><br /><span>Venmo</span><br /><span>$15</span><br /></span
+              ><span class="my-listings-text79"
+                ><span>Time Requested: 10/29/2023 16:00</span><br /><span
+                  >Buyer Rating: 3/5 (2)</span
+                ><br /></span></section
+            ><span class="my-listings-text84">OR</span
+            ><section class="my-listings-container09"
+              ><input
                 type="datetime-local"
                 placeholder="placeholder"
-                class="my-listings-textinput4 input"
-              />
-              <select class="my-listings-select4">
-                <option value="Option 1">Option 1</option>
-                <option value="Option 1">Option 1</option>
-                <option value="Option 1">Option 1</option>
-                <option value="Option 2">Option 2</option>
-                <option value="Option 2">Option 2</option>
-                <option value="Option 2">Option 2</option>
-                <option value="Option 3">Option 3</option>
-                <option value="Option 3">Option 3</option>
-                <option value="Option 3">Option 3</option>
-                <option value="null" selected="">Place</option>
-                <option value="Option 1">Option 1</option>
-                <option value="loc1">Langsam Library</option>
-                <option value="Option 2">Option 2</option>
-                <option value="Option 3">Option 3</option>
-              </select>
-              <select class="my-listings-select5">
-                <option value="Option 1">Option 1</option>
-                <option value="Option 1">Option 1</option>
-                <option value="Option 1">Option 1</option>
-                <option value="Option 2">Option 2</option>
-                <option value="Option 2">Option 2</option>
-                <option value="Option 2">Option 2</option>
-                <option value="Option 3">Option 3</option>
-                <option value="Option 3">Option 3</option>
-                <option value="Option 3">Option 3</option>
-                <option value="null" selected="">Payment Method</option>
-                <option value="Option 1">Option 1</option>
-                <option value="popt1">Cash</option>
-                <option value="Option 2">Option 2</option>
-                <option value="popt2">Venmo</option>
-                <option value="Option 3">Option 3</option>
-                <option value="popt3">CashApp</option>
-                <option value="opot4">Zelle</option>
-              </select>
-              <input
+                class="my-listings-textinput4 input" /><select
+                class="my-listings-select4"
+                ><option value="Option 1">Option 1</option
+                ><option value="Option 1">Option 1</option
+                ><option value="Option 1">Option 1</option
+                ><option value="Option 2">Option 2</option
+                ><option value="Option 2">Option 2</option
+                ><option value="Option 2">Option 2</option
+                ><option value="Option 3">Option 3</option
+                ><option value="Option 3">Option 3</option
+                ><option value="Option 3">Option 3</option
+                ><option value="null" selected="">Place</option
+                ><option value="Option 1">Option 1</option
+                ><option value="loc1">Langsam Library</option
+                ><option value="Option 2">Option 2</option
+                ><option value="Option 3">Option 3</option></select
+              ><select class="my-listings-select5"
+                ><option value="Option 1">Option 1</option
+                ><option value="Option 1">Option 1</option
+                ><option value="Option 1">Option 1</option
+                ><option value="Option 2">Option 2</option
+                ><option value="Option 2">Option 2</option
+                ><option value="Option 2">Option 2</option
+                ><option value="Option 3">Option 3</option
+                ><option value="Option 3">Option 3</option
+                ><option value="Option 3">Option 3</option
+                ><option value="null" selected="">Payment Method</option
+                ><option value="Option 1">Option 1</option
+                ><option value="popt1">Cash</option
+                ><option value="Option 2">Option 2</option
+                ><option value="popt2">Venmo</option
+                ><option value="Option 3">Option 3</option
+                ><option value="popt3">CashApp</option
+                ><option value="opot4">Zelle</option></select
+              ><input
                 type="text"
                 placeholder="$"
-                class="my-listings-textinput5 input"
-              />
-              <button
+                class="my-listings-textinput5 input" /><button
                 name="Submit Offer"
                 type="button"
                 class="my-listings-button6 button"
-              >
-                <span>
-                  <span>Counter Offer</span>
-                  <br />
-                </span>
-              </button>
-            </section>
-            <label class="my-listings-text88">
-              <span>Surface Laptop Charger</span>
-              <br />
-            </label>
-          </form>
-        </div>
-      </div>
-    </div>
+                ><span><span>Counter Offer</span><br /></span></button></section
+            ><label class="my-listings-text88"
+              ><span>Surface Laptop Charger</span
+              ><br /></label></form></div></div
+    ></div>
     <script
       defer=""
       src="https://unpkg.com/@teleporthq/teleport-custom-scripts"
-    ></script>
-  </body>
-</html>
+    ></script></body
+></html>

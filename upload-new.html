@@ -1,16 +1,15 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <title>upload-new - campusTrader</title>
-    <meta property="og:title" content="upload-new - campusTrader" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta charset="utf-8" />
-    <meta property="twitter:card" content="summary_large_image" />
-
-    <style data-tag="reset-style-sheet">
-      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}html { scroll-behavior: smooth  }
-    </style>
-    <style data-tag="default-style-sheet">
+<html lang="en"
+  ><head
+    ><title>upload-new - campusTrader</title
+    ><meta property="og:title" content="upload-new - campusTrader" /><meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0" /><meta
+      charset="utf-8" /><meta
+      property="twitter:card"
+      content="summary_large_image" /><style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}html { scroll-behavior: smooth  }</style
+    ><style data-tag="default-style-sheet">
       html {
         font-family: "Times New Roman";
         font-size: 16px;
@@ -26,71 +25,60 @@
         color: var(--dl-color-gray-black);
         background-color: var(--dl-color-gray-white);
 
-      }
-    </style>
-    <link
+      }</style
+    ><link
+      rel="stylesheet"
+      href="https://unpkg.com/animate.css@4.1.1/animate.css" /><link
       rel="shortcut icon"
       href="public/campustrader-favicon.png"
       type="icon/png"
-      sizes="32x32"
-    />
-    <link
+      sizes="32x32" /><link
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
-      data-tag="font"
-    />
-  </head>
-  <body>
-    <link rel="stylesheet" href="./style.css" />
-    <div>
-      <link href="./upload-new.css" rel="stylesheet" />
-
-      <div class="upload-new-container">
-        <header data-thq="thq-navbar" class="upload-new-navbar-interactive">
-          <div data-thq="thq-navbar-nav" class="upload-new-desktop-menu">
-            <nav class="upload-new-links">
-              <a href="my-listings.html" class="upload-new-navlink">
-                My Listings
-              </a>
-            </nav>
-          </div>
-          <div data-thq="thq-burger-menu" class="upload-new-menu">
-            <svg viewBox="0 0 1024 1024" class="upload-new-icon">
+      data-tag="font" /><link
+      rel="stylesheet"
+      href="https://unpkg.com/@teleporthq/teleport-custom-scripts/dist/style.css" /></head
+  ><body
+    ><link rel="stylesheet" href="./style.css" /><div
+      ><link href="./upload-new.css" rel="stylesheet" /><div
+        class="upload-new-container"
+        ><header data-thq="thq-navbar" class="upload-new-navbar-interactive"
+          ><div data-thq="thq-navbar-nav" class="upload-new-desktop-menu"
+            ><nav class="upload-new-links"
+              ><a href="my-listings.html" class="upload-new-navlink"
+                >My Listings</a
+              ></nav
+            ></div
+          ><div data-thq="thq-burger-menu" class="upload-new-menu"
+            ><svg viewBox="0 0 1024 1024" class="upload-new-icon">
               <path
                 d="M128 554.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 298.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 810.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z"
-              ></path>
-            </svg>
-          </div>
-          <div data-thq="thq-mobile-menu" class="upload-new-mobile-menu">
-            <div class="upload-new-nav">
-              <div class="upload-new-top">
-                <img
+              ></path></svg></div
+          ><div data-thq="thq-mobile-menu" class="upload-new-mobile-menu"
+            ><div class="upload-new-nav"
+              ><div class="upload-new-top"
+                ><img
                   alt="image"
                   src="https://presentation-website-assets.teleporthq.io/logos/logo.png"
-                  class="upload-new-logo"
-                />
-                <div data-thq="thq-close-menu" class="upload-new-close-menu">
-                  <svg viewBox="0 0 1024 1024" class="upload-new-icon02">
+                  class="upload-new-logo" /><div
+                  data-thq="thq-close-menu"
+                  class="upload-new-close-menu"
+                  ><svg viewBox="0 0 1024 1024" class="upload-new-icon02">
                     <path
                       d="M810 274l-238 238 238 238-60 60-238-238-238 238-60-60 238-238-238-238 60-60 238 238 238-238z"
-                    ></path>
-                  </svg>
-                </div>
-              </div>
-              <nav class="upload-new-links1">
-                <span class="upload-new-text">About</span>
-                <span class="upload-new-text1">Features</span>
-                <span class="upload-new-text2">Pricing</span>
-                <span class="upload-new-text3">Team</span>
-                <span class="upload-new-text4">Blog</span>
-              </nav>
-              <div class="upload-new-buttons">
-                <button class="upload-new-login button">Login</button>
-                <button class="button">Register</button>
-              </div>
-            </div>
-            <div>
-              <svg
+                    ></path></svg></div></div
+              ><nav class="upload-new-links1"
+                ><span class="upload-new-text">About</span
+                ><span class="upload-new-text1">Features</span
+                ><span class="upload-new-text2">Pricing</span
+                ><span class="upload-new-text3">Team</span
+                ><span class="upload-new-text4">Blog</span></nav
+              ><div class="upload-new-buttons"
+                ><button class="upload-new-login button">Login</button
+                ><button class="button">Register</button></div
+              ></div
+            ><div
+              ><svg
                 viewBox="0 0 950.8571428571428 1024"
                 class="upload-new-icon04"
               >
@@ -110,43 +98,37 @@
               >
                 <path
                   d="M548 6.857v150.857h-89.714c-70.286 0-83.429 33.714-83.429 82.286v108h167.429l-22.286 169.143h-145.143v433.714h-174.857v-433.714h-145.714v-169.143h145.714v-124.571c0-144.571 88.571-223.429 217.714-223.429 61.714 0 114.857 4.571 130.286 6.857z"
-                ></path>
-              </svg>
-            </div>
-          </div>
-          <a href="index.html" class="upload-new-navlink1">
-            <img
+                ></path></svg></div></div
+          ><a href="index.html" class="upload-new-navlink1"
+            ><img
               alt="image"
               src="public/campustrader-logo1-200h.png"
-              class="upload-new-logo1"
-            />
-          </a>
-          <a href="login.html" class="upload-new-login1 button">Login</a>
-          <a href="my-offers.html" class="upload-new-navlink2">My Offers</a>
-          <a href="faq.html" class="upload-new-navlink3">FAQs</a>
-          <a href="signup.html" class="upload-new-register1 button">Sign Up</a>
-        </header>
-        <div class="upload-new-container1">
-          <h1 class="upload-new-text5">Upload a New Listing</h1>
-          <span>Create a name for your Listing</span>
-          <textarea class="textarea"></textarea>
-          <span class="upload-new-text7">Write a brief Description</span>
-          <textarea class="textarea"></textarea>
-          <span class="upload-new-text8">Upload a picture</span>
-          <img
+              class="upload-new-logo1" /></a
+          ><a href="login.html" class="upload-new-login1 button">Login</a
+          ><a href="my-offers.html" class="upload-new-navlink2">My Offers</a
+          ><a href="faq.html" class="upload-new-navlink3">FAQs</a
+          ><a href="signup.html" class="upload-new-register1 button"
+            >Sign Up</a
+          ></header
+        ><div class="upload-new-container1"
+          ><h1 class="upload-new-text5">Upload a New Listing</h1
+          ><span>Create a name for your Listing</span
+          ><textarea class="textarea"></textarea
+          ><span class="upload-new-text7">Write a brief Description</span
+          ><textarea class="textarea"></textarea
+          ><span class="upload-new-text8">Upload a picture</span
+          ><img
             alt="image"
             src="https://play.teleporthq.io/static/svg/default-img.svg"
             class="upload-new-image"
-          />
-          <a href="my-listings.html" class="upload-new-navlink4 button">
-            Upload your New Listing
-          </a>
-        </div>
-      </div>
-    </div>
+          /><a href="my-listings.html" class="upload-new-navlink4 button"
+            >Upload your New Listing</a
+          ></div
+        ></div
+      ></div
+    >
     <script
       defer=""
       src="https://unpkg.com/@teleporthq/teleport-custom-scripts"
-    ></script>
-  </body>
-</html>
+    ></script></body
+></html>
