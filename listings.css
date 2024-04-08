@@ -110,16 +110,16 @@
 .listings-text {
   margin-bottom: var(--dl-space-space-unit);
 }
-.listings-text01 {
+.listings-text001 {
   margin-bottom: var(--dl-space-space-unit);
 }
-.listings-text02 {
+.listings-text002 {
   margin-bottom: var(--dl-space-space-unit);
 }
-.listings-text03 {
+.listings-text003 {
   margin-bottom: var(--dl-space-space-unit);
 }
-.listings-text04 {
+.listings-text004 {
   margin-bottom: var(--dl-space-space-unit);
 }
 .listings-buttons {
@@ -146,7 +146,7 @@
   width: var(--dl-size-size-xsmall);
   height: var(--dl-size-size-xsmall);
 }
-.listings-navlink1 {
+.listings-navlink01 {
   display: contents;
 }
 .listings-logo1 {
@@ -167,14 +167,14 @@
   border-width: 0px;
   text-decoration: none;
 }
-.listings-navlink2 {
+.listings-navlink02 {
   top: 41px;
   left: 190px;
   position: absolute;
   font-family: "Times New Roman";
   text-decoration: none;
 }
-.listings-navlink3 {
+.listings-navlink03 {
   top: 42px;
   left: 296px;
   position: absolute;
@@ -253,7 +253,7 @@
   height: 50%;
   align-self: center;
 }
-.listings-button1 {
+.listings-button01 {
   color: rgb(156, 13, 13);
   right: 5px;
   bottom: 4px;
@@ -262,7 +262,7 @@
   margin-right: 6px;
   background-color: rgb(14, 35, 255);
 }
-.listings-text08 {
+.listings-text008 {
   margin-left: 20px;
   margin-bottom: 5px;
 }
@@ -280,14 +280,14 @@
   justify-content: flex-start;
   background-color: rgba(54, 56, 234, 0.09);
 }
-.listings-textinput1 {
+.listings-textinput01 {
   width: 200px;
   height: 35px;
   margin-top: var(--dl-space-space-oneandhalfunits);
   margin-left: var(--dl-space-space-halfunit);
   background-color: transparent;
 }
-.listings-select1 {
+.listings-select01 {
   width: 200px;
   height: 30px;
   margin-top: var(--dl-space-space-halfunit);
@@ -297,7 +297,7 @@
   border-radius: 4px;
   background-color: transparent;
 }
-.listings-select2 {
+.listings-select02 {
   width: 200px;
   height: 30px;
   margin-top: var(--dl-space-space-halfunit);
@@ -307,13 +307,13 @@
   border-radius: 4px;
   background-color: transparent;
 }
-.listings-textinput2 {
+.listings-textinput02 {
   width: 100px;
   margin-top: var(--dl-space-space-halfunit);
   margin-left: var(--dl-space-space-halfunit);
   background-color: transparent;
 }
-.listings-button2 {
+.listings-button02 {
   left: 114px;
   color: rgb(255, 255, 255);
   width: 125px;
@@ -324,10 +324,10 @@
   border-color: #2335f5;
   background-color: rgb(46, 56, 253);
 }
-.listings-navlink4 {
+.listings-navlink04 {
   text-decoration: none;
 }
-.listings-text11 {
+.listings-text011 {
   top: 9px;
   left: 9px;
   color: rgb(255, 255, 255);
@@ -342,7 +342,7 @@
   text-transform: uppercase;
   background-color: rgb(50, 45, 247);
 }
-.listings-form1 {
+.listings-form01 {
   width: 950px;
   height: 225px;
   display: flex;
@@ -356,7 +356,7 @@
   flex-direction: row;
   justify-content: flex-start;
 }
-.listings-image1 {
+.listings-image01 {
   width: 240px;
   height: 100%;
   object-fit: cover;
@@ -370,13 +370,13 @@
   flex-direction: column;
   justify-content: center;
 }
-.listings-ul1 {
+.listings-ul01 {
   flex: 1;
   width: 100%;
   height: 50%;
   align-self: center;
 }
-.listings-button3 {
+.listings-button03 {
   color: rgb(156, 13, 13);
   right: 5px;
   bottom: 4px;
@@ -385,7 +385,7 @@
   margin-right: 6px;
   background-color: rgb(14, 35, 255);
 }
-.listings-text17 {
+.listings-text017 {
   margin-left: 20px;
   margin-bottom: 5px;
 }
@@ -403,14 +403,14 @@
   justify-content: flex-start;
   background-color: rgba(54, 56, 234, 0.09);
 }
-.listings-textinput3 {
+.listings-textinput03 {
   width: 200px;
   height: 35px;
   margin-top: var(--dl-space-space-oneandhalfunits);
   margin-left: var(--dl-space-space-halfunit);
   background-color: transparent;
 }
-.listings-select3 {
+.listings-select03 {
   width: 200px;
   height: 30px;
   margin-top: var(--dl-space-space-halfunit);
@@ -420,7 +420,7 @@
   border-radius: 4px;
   background-color: transparent;
 }
-.listings-select4 {
+.listings-select04 {
   width: 200px;
   height: 30px;
   margin-top: var(--dl-space-space-halfunit);
@@ -430,13 +430,13 @@
   border-radius: 4px;
   background-color: transparent;
 }
-.listings-textinput4 {
+.listings-textinput04 {
   width: 100px;
   margin-top: var(--dl-space-space-halfunit);
   margin-left: var(--dl-space-space-halfunit);
   background-color: transparent;
 }
-.listings-button4 {
+.listings-button04 {
   left: 114px;
   color: rgb(255, 255, 255);
   width: 125px;
@@ -447,10 +447,24 @@
   border-color: #2335f5;
   background-color: rgb(46, 56, 253);
 }
-.listings-navlink5 {
+.listings-navlink05 {
   text-decoration: none;
 }
-.listings-text20 {
+.listings-button05 {
+  left: 114px;
+  color: rgb(255, 255, 255);
+  width: 125px;
+  bottom: 19px;
+  height: 31px;
+  position: absolute;
+  font-weight: bold;
+  border-color: #2335f5;
+  background-color: rgb(46, 56, 253);
+}
+.listings-navlink06 {
+  text-decoration: none;
+}
+.listings-text022 {
   top: 9px;
   left: 9px;
   color: rgb(255, 255, 255);
@@ -465,7 +479,7 @@
   text-transform: uppercase;
   background-color: rgb(50, 45, 247);
 }
-.listings-form2 {
+.listings-form02 {
   width: 950px;
   height: 225px;
   display: flex;
@@ -479,7 +493,7 @@
   flex-direction: row;
   justify-content: flex-start;
 }
-.listings-image2 {
+.listings-image02 {
   width: 240px;
   height: 100%;
   object-fit: cover;
@@ -493,7 +507,7 @@
   flex-direction: column;
   justify-content: center;
 }
-.listings-ul2 {
+.listings-ul02 {
   flex: 1;
   width: 100%;
   height: 50%;
@@ -502,7 +516,7 @@
 .listings-li08 {
   height: 120px;
 }
-.listings-button5 {
+.listings-button06 {
   color: rgb(156, 13, 13);
   right: 5px;
   bottom: 4px;
@@ -511,7 +525,7 @@
   margin-right: 6px;
   background-color: rgb(14, 35, 255);
 }
-.listings-text26 {
+.listings-text028 {
   margin-left: 20px;
   margin-bottom: 5px;
 }
@@ -529,14 +543,14 @@
   justify-content: flex-start;
   background-color: rgba(54, 56, 234, 0.09);
 }
-.listings-textinput5 {
+.listings-textinput05 {
   width: 200px;
   height: 35px;
   margin-top: var(--dl-space-space-oneandhalfunits);
   margin-left: var(--dl-space-space-halfunit);
   background-color: transparent;
 }
-.listings-select5 {
+.listings-select05 {
   width: 200px;
   height: 30px;
   margin-top: var(--dl-space-space-halfunit);
@@ -546,7 +560,7 @@
   border-radius: 4px;
   background-color: transparent;
 }
-.listings-select6 {
+.listings-select06 {
   width: 200px;
   height: 30px;
   margin-top: var(--dl-space-space-halfunit);
@@ -556,13 +570,13 @@
   border-radius: 4px;
   background-color: transparent;
 }
-.listings-textinput6 {
+.listings-textinput06 {
   width: 100px;
   margin-top: var(--dl-space-space-halfunit);
   margin-left: var(--dl-space-space-halfunit);
   background-color: transparent;
 }
-.listings-navlink6 {
+.listings-button07 {
   left: 114px;
   color: rgb(255, 255, 255);
   width: 125px;
@@ -571,10 +585,12 @@
   position: absolute;
   font-weight: bold;
   border-color: #2335f5;
-  text-decoration: none;
   background-color: rgb(46, 56, 253);
 }
-.listings-text30 {
+.listings-navlink07 {
+  text-decoration: none;
+}
+.listings-text031 {
   top: 9px;
   left: 9px;
   color: rgb(255, 255, 255);
@@ -589,7 +605,7 @@
   text-transform: uppercase;
   background-color: rgb(50, 45, 247);
 }
-.listings-form3 {
+.listings-form03 {
   width: 950px;
   height: 225px;
   display: flex;
@@ -603,7 +619,7 @@
   flex-direction: row;
   justify-content: flex-start;
 }
-.listings-image3 {
+.listings-image03 {
   width: 240px;
   height: 100%;
   object-fit: cover;
@@ -617,13 +633,13 @@
   flex-direction: column;
   justify-content: center;
 }
-.listings-ul3 {
+.listings-ul03 {
   flex: 1;
   width: 100%;
   height: 50%;
   align-self: center;
 }
-.listings-button6 {
+.listings-button08 {
   color: rgb(156, 13, 13);
   right: 5px;
   bottom: 4px;
@@ -632,7 +648,7 @@
   margin-right: 6px;
   background-color: rgb(14, 35, 255);
 }
-.listings-text37 {
+.listings-text038 {
   margin-left: 20px;
   margin-bottom: 5px;
 }
@@ -650,14 +666,14 @@
   justify-content: flex-start;
   background-color: rgba(54, 56, 234, 0.09);
 }
-.listings-textinput7 {
+.listings-textinput07 {
   width: 200px;
   height: 35px;
   margin-top: var(--dl-space-space-oneandhalfunits);
   margin-left: var(--dl-space-space-halfunit);
   background-color: transparent;
 }
-.listings-select7 {
+.listings-select07 {
   width: 200px;
   height: 30px;
   margin-top: var(--dl-space-space-halfunit);
@@ -667,7 +683,7 @@
   border-radius: 4px;
   background-color: transparent;
 }
-.listings-select8 {
+.listings-select08 {
   width: 200px;
   height: 30px;
   margin-top: var(--dl-space-space-halfunit);
@@ -677,13 +693,13 @@
   border-radius: 4px;
   background-color: transparent;
 }
-.listings-textinput8 {
+.listings-textinput08 {
   width: 100px;
   margin-top: var(--dl-space-space-halfunit);
   margin-left: var(--dl-space-space-halfunit);
   background-color: transparent;
 }
-.listings-navlink7 {
+.listings-button09 {
   left: 114px;
   color: rgb(255, 255, 255);
   width: 125px;
@@ -692,10 +708,12 @@
   position: absolute;
   font-weight: bold;
   border-color: #2335f5;
-  text-decoration: none;
   background-color: rgb(46, 56, 253);
 }
-.listings-text41 {
+.listings-navlink08 {
+  text-decoration: none;
+}
+.listings-text041 {
   top: 9px;
   left: 9px;
   color: rgb(255, 255, 255);
@@ -709,6 +727,1606 @@
   border-radius: 14px;
   text-transform: uppercase;
   background-color: rgb(50, 45, 247);
+}
+.listings-form04 {
+  width: 950px;
+  height: 225px;
+  display: flex;
+  position: relative;
+  align-self: center;
+  margin-top: var(--dl-space-space-twounits);
+  align-items: center;
+  border-color: var(--dl-color-gray-black);
+  border-style: solid;
+  border-width: 1px;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.listings-container11 {
+  width: 240px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  background-size: cover;
+  justify-content: center;
+  background-image: url('https://play.teleporthq.io/static/svg/default-img.svg');
+  background-position: center;
+}
+.listings-image04 {
+  width: 200px;
+  object-fit: cover;
+}
+.listings-container12 {
+  width: 450px;
+  height: 225px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+}
+.listings-ul04 {
+  flex: 1;
+  width: 100%;
+  height: 50%;
+  align-self: center;
+}
+.listings-button10 {
+  color: rgb(156, 13, 13);
+  right: 5px;
+  bottom: 4px;
+  position: absolute;
+  align-self: flex-end;
+  margin-right: 6px;
+  background-color: rgb(14, 35, 255);
+}
+.listings-text047 {
+  margin-left: 20px;
+  margin-bottom: 5px;
+}
+.listings-container13 {
+  width: 250px;
+  height: 200px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  border-color: rgba(120, 120, 120, 0.4);
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 14px;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: rgba(54, 56, 234, 0.09);
+}
+.listings-textinput09 {
+  width: 200px;
+  height: 35px;
+  margin-top: var(--dl-space-space-oneandhalfunits);
+  margin-left: var(--dl-space-space-halfunit);
+  background-color: transparent;
+}
+.listings-select09 {
+  width: 200px;
+  height: 30px;
+  margin-top: var(--dl-space-space-halfunit);
+  margin-left: var(--dl-space-space-halfunit);
+  border-color: var(--dl-color-gray-black);
+  border-width: 1px;
+  border-radius: 4px;
+  background-color: transparent;
+}
+.listings-select10 {
+  width: 200px;
+  height: 30px;
+  margin-top: var(--dl-space-space-halfunit);
+  margin-left: var(--dl-space-space-halfunit);
+  border-color: var(--dl-color-gray-black);
+  border-width: 1px;
+  border-radius: 4px;
+  background-color: transparent;
+}
+.listings-textinput10 {
+  width: 100px;
+  margin-top: var(--dl-space-space-halfunit);
+  margin-left: var(--dl-space-space-halfunit);
+  background-color: transparent;
+}
+.listings-button11 {
+  left: 114px;
+  color: rgb(255, 255, 255);
+  width: 125px;
+  bottom: 19px;
+  height: 31px;
+  position: absolute;
+  font-weight: bold;
+  border-color: #2335f5;
+  background-color: rgb(46, 56, 253);
+}
+.listings-navlink09 {
+  text-decoration: none;
+}
+.listings-text050 {
+  top: 9px;
+  left: 9px;
+  color: rgb(255, 255, 255);
+  width: var(--dl-size-size-small);
+  height: var(--dl-size-size-small);
+  position: absolute;
+  font-size: 22px;
+  align-self: flex-start;
+  text-align: center;
+  padding-top: 13px;
+  border-radius: 14px;
+  text-transform: uppercase;
+  background-color: rgb(50, 45, 247);
+}
+.listings-form05 {
+  width: 950px;
+  height: 225px;
+  display: flex;
+  position: relative;
+  align-self: center;
+  margin-top: var(--dl-space-space-twounits);
+  align-items: center;
+  border-color: var(--dl-color-gray-black);
+  border-style: solid;
+  border-width: 1px;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.listings-container14 {
+  width: 240px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  background-size: cover;
+  justify-content: center;
+  background-image: url('https://play.teleporthq.io/static/svg/default-img.svg');
+  background-position: center;
+}
+.listings-image05 {
+  width: 200px;
+  object-fit: cover;
+}
+.listings-container15 {
+  width: 450px;
+  height: 225px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+}
+.listings-ul05 {
+  flex: 1;
+  width: 100%;
+  height: 50%;
+  align-self: center;
+}
+.listings-button12 {
+  color: rgb(156, 13, 13);
+  right: 5px;
+  bottom: 4px;
+  position: absolute;
+  align-self: flex-end;
+  margin-right: 6px;
+  background-color: rgb(14, 35, 255);
+}
+.listings-text060 {
+  margin-left: 20px;
+  margin-bottom: 5px;
+}
+.listings-container16 {
+  width: 250px;
+  height: 200px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  border-color: rgba(120, 120, 120, 0.4);
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 14px;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: rgba(54, 56, 234, 0.09);
+}
+.listings-textinput11 {
+  width: 200px;
+  height: 35px;
+  margin-top: var(--dl-space-space-oneandhalfunits);
+  margin-left: var(--dl-space-space-halfunit);
+  background-color: transparent;
+}
+.listings-select11 {
+  width: 200px;
+  height: 30px;
+  margin-top: var(--dl-space-space-halfunit);
+  margin-left: var(--dl-space-space-halfunit);
+  border-color: var(--dl-color-gray-black);
+  border-width: 1px;
+  border-radius: 4px;
+  background-color: transparent;
+}
+.listings-select12 {
+  width: 200px;
+  height: 30px;
+  margin-top: var(--dl-space-space-halfunit);
+  margin-left: var(--dl-space-space-halfunit);
+  border-color: var(--dl-color-gray-black);
+  border-width: 1px;
+  border-radius: 4px;
+  background-color: transparent;
+}
+.listings-textinput12 {
+  width: 100px;
+  margin-top: var(--dl-space-space-halfunit);
+  margin-left: var(--dl-space-space-halfunit);
+  background-color: transparent;
+}
+.listings-button13 {
+  left: 114px;
+  color: rgb(255, 255, 255);
+  width: 125px;
+  bottom: 19px;
+  height: 31px;
+  position: absolute;
+  font-weight: bold;
+  border-color: #2335f5;
+  background-color: rgb(46, 56, 253);
+}
+.listings-navlink10 {
+  text-decoration: none;
+}
+.listings-text063 {
+  top: 9px;
+  left: 9px;
+  color: rgb(255, 255, 255);
+  width: var(--dl-size-size-small);
+  height: var(--dl-size-size-small);
+  position: absolute;
+  font-size: 22px;
+  align-self: flex-start;
+  text-align: center;
+  padding-top: 13px;
+  border-radius: 14px;
+  text-transform: uppercase;
+  background-color: rgb(50, 45, 247);
+}
+.listings-form06 {
+  width: 950px;
+  height: 225px;
+  display: flex;
+  position: relative;
+  align-self: center;
+  margin-top: var(--dl-space-space-twounits);
+  align-items: center;
+  border-color: var(--dl-color-gray-black);
+  border-style: solid;
+  border-width: 1px;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.listings-container17 {
+  width: 240px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  background-size: cover;
+  justify-content: center;
+  background-image: url('https://play.teleporthq.io/static/svg/default-img.svg');
+  background-position: center;
+}
+.listings-image06 {
+  width: 200px;
+  object-fit: cover;
+}
+.listings-container18 {
+  width: 450px;
+  height: 225px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+}
+.listings-ul06 {
+  flex: 1;
+  width: 100%;
+  height: 50%;
+  align-self: center;
+}
+.listings-button14 {
+  color: rgb(156, 13, 13);
+  right: 5px;
+  bottom: 4px;
+  position: absolute;
+  align-self: flex-end;
+  margin-right: 6px;
+  background-color: rgb(14, 35, 255);
+}
+.listings-text069 {
+  margin-left: 20px;
+  margin-bottom: 5px;
+}
+.listings-container19 {
+  width: 250px;
+  height: 200px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  border-color: rgba(120, 120, 120, 0.4);
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 14px;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: rgba(54, 56, 234, 0.09);
+}
+.listings-textinput13 {
+  width: 200px;
+  height: 35px;
+  margin-top: var(--dl-space-space-oneandhalfunits);
+  margin-left: var(--dl-space-space-halfunit);
+  background-color: transparent;
+}
+.listings-select13 {
+  width: 200px;
+  height: 30px;
+  margin-top: var(--dl-space-space-halfunit);
+  margin-left: var(--dl-space-space-halfunit);
+  border-color: var(--dl-color-gray-black);
+  border-width: 1px;
+  border-radius: 4px;
+  background-color: transparent;
+}
+.listings-select14 {
+  width: 200px;
+  height: 30px;
+  margin-top: var(--dl-space-space-halfunit);
+  margin-left: var(--dl-space-space-halfunit);
+  border-color: var(--dl-color-gray-black);
+  border-width: 1px;
+  border-radius: 4px;
+  background-color: transparent;
+}
+.listings-textinput14 {
+  width: 100px;
+  margin-top: var(--dl-space-space-halfunit);
+  margin-left: var(--dl-space-space-halfunit);
+  background-color: transparent;
+}
+.listings-button15 {
+  left: 114px;
+  color: rgb(255, 255, 255);
+  width: 125px;
+  bottom: 19px;
+  height: 31px;
+  position: absolute;
+  font-weight: bold;
+  border-color: #2335f5;
+  background-color: rgb(46, 56, 253);
+}
+.listings-navlink11 {
+  text-decoration: none;
+}
+.listings-text072 {
+  top: 9px;
+  left: 9px;
+  color: rgb(255, 255, 255);
+  width: var(--dl-size-size-small);
+  height: var(--dl-size-size-small);
+  position: absolute;
+  font-size: 22px;
+  align-self: flex-start;
+  text-align: center;
+  padding-top: 13px;
+  border-radius: 14px;
+  text-transform: uppercase;
+  background-color: rgb(50, 45, 247);
+}
+.listings-form07 {
+  width: 950px;
+  height: 225px;
+  display: flex;
+  position: relative;
+  align-self: center;
+  margin-top: var(--dl-space-space-twounits);
+  align-items: center;
+  border-color: var(--dl-color-gray-black);
+  border-style: solid;
+  border-width: 1px;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.listings-container20 {
+  width: 240px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  background-size: cover;
+  justify-content: center;
+  background-image: url('https://play.teleporthq.io/static/svg/default-img.svg');
+  background-position: center;
+}
+.listings-image07 {
+  width: 200px;
+  object-fit: cover;
+}
+.listings-container21 {
+  width: 450px;
+  height: 225px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+}
+.listings-ul07 {
+  flex: 1;
+  width: 100%;
+  height: 50%;
+  align-self: center;
+}
+.listings-button16 {
+  color: rgb(156, 13, 13);
+  right: 5px;
+  bottom: 4px;
+  position: absolute;
+  align-self: flex-end;
+  margin-right: 6px;
+  background-color: rgb(14, 35, 255);
+}
+.listings-text078 {
+  margin-left: 20px;
+  margin-bottom: 5px;
+}
+.listings-container22 {
+  width: 250px;
+  height: 200px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  border-color: rgba(120, 120, 120, 0.4);
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 14px;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: rgba(54, 56, 234, 0.09);
+}
+.listings-textinput15 {
+  width: 200px;
+  height: 35px;
+  margin-top: var(--dl-space-space-oneandhalfunits);
+  margin-left: var(--dl-space-space-halfunit);
+  background-color: transparent;
+}
+.listings-select15 {
+  width: 200px;
+  height: 30px;
+  margin-top: var(--dl-space-space-halfunit);
+  margin-left: var(--dl-space-space-halfunit);
+  border-color: var(--dl-color-gray-black);
+  border-width: 1px;
+  border-radius: 4px;
+  background-color: transparent;
+}
+.listings-select16 {
+  width: 200px;
+  height: 30px;
+  margin-top: var(--dl-space-space-halfunit);
+  margin-left: var(--dl-space-space-halfunit);
+  border-color: var(--dl-color-gray-black);
+  border-width: 1px;
+  border-radius: 4px;
+  background-color: transparent;
+}
+.listings-textinput16 {
+  width: 100px;
+  margin-top: var(--dl-space-space-halfunit);
+  margin-left: var(--dl-space-space-halfunit);
+  background-color: transparent;
+}
+.listings-button17 {
+  left: 114px;
+  color: rgb(255, 255, 255);
+  width: 125px;
+  bottom: 19px;
+  height: 31px;
+  position: absolute;
+  font-weight: bold;
+  border-color: #2335f5;
+  background-color: rgb(46, 56, 253);
+}
+.listings-navlink12 {
+  text-decoration: none;
+}
+.listings-text081 {
+  top: 9px;
+  left: 9px;
+  color: rgb(255, 255, 255);
+  width: var(--dl-size-size-small);
+  height: var(--dl-size-size-small);
+  position: absolute;
+  font-size: 22px;
+  align-self: flex-start;
+  text-align: center;
+  padding-top: 13px;
+  border-radius: 14px;
+  text-transform: uppercase;
+  background-color: rgb(50, 45, 247);
+}
+.listings-form08 {
+  width: 950px;
+  height: 225px;
+  display: flex;
+  position: relative;
+  align-self: center;
+  margin-top: var(--dl-space-space-twounits);
+  align-items: center;
+  border-color: var(--dl-color-gray-black);
+  border-style: solid;
+  border-width: 1px;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.listings-container23 {
+  width: 240px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  background-size: cover;
+  justify-content: center;
+  background-image: url('https://play.teleporthq.io/static/svg/default-img.svg');
+  background-position: center;
+}
+.listings-image08 {
+  width: 200px;
+  object-fit: cover;
+}
+.listings-container24 {
+  width: 450px;
+  height: 225px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+}
+.listings-ul08 {
+  flex: 1;
+  width: 100%;
+  height: 50%;
+  align-self: center;
+}
+.listings-button18 {
+  color: rgb(156, 13, 13);
+  right: 5px;
+  bottom: 4px;
+  position: absolute;
+  align-self: flex-end;
+  margin-right: 6px;
+  background-color: rgb(14, 35, 255);
+}
+.listings-text090 {
+  margin-left: 20px;
+  margin-bottom: 5px;
+}
+.listings-container25 {
+  width: 250px;
+  height: 200px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  border-color: rgba(120, 120, 120, 0.4);
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 14px;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: rgba(54, 56, 234, 0.09);
+}
+.listings-textinput17 {
+  width: 200px;
+  height: 35px;
+  margin-top: var(--dl-space-space-oneandhalfunits);
+  margin-left: var(--dl-space-space-halfunit);
+  background-color: transparent;
+}
+.listings-select17 {
+  width: 200px;
+  height: 30px;
+  margin-top: var(--dl-space-space-halfunit);
+  margin-left: var(--dl-space-space-halfunit);
+  border-color: var(--dl-color-gray-black);
+  border-width: 1px;
+  border-radius: 4px;
+  background-color: transparent;
+}
+.listings-select18 {
+  width: 200px;
+  height: 30px;
+  margin-top: var(--dl-space-space-halfunit);
+  margin-left: var(--dl-space-space-halfunit);
+  border-color: var(--dl-color-gray-black);
+  border-width: 1px;
+  border-radius: 4px;
+  background-color: transparent;
+}
+.listings-textinput18 {
+  width: 100px;
+  margin-top: var(--dl-space-space-halfunit);
+  margin-left: var(--dl-space-space-halfunit);
+  background-color: transparent;
+}
+.listings-button19 {
+  left: 114px;
+  color: rgb(255, 255, 255);
+  width: 125px;
+  bottom: 19px;
+  height: 31px;
+  position: absolute;
+  font-weight: bold;
+  border-color: #2335f5;
+  background-color: rgb(46, 56, 253);
+}
+.listings-navlink13 {
+  text-decoration: none;
+}
+.listings-text093 {
+  top: 9px;
+  left: 9px;
+  color: rgb(255, 255, 255);
+  width: var(--dl-size-size-small);
+  height: var(--dl-size-size-small);
+  position: absolute;
+  font-size: 22px;
+  align-self: flex-start;
+  text-align: center;
+  padding-top: 13px;
+  border-radius: 14px;
+  text-transform: uppercase;
+  background-color: rgb(50, 45, 247);
+}
+.listings-form09 {
+  width: 950px;
+  height: 225px;
+  display: flex;
+  position: relative;
+  align-self: center;
+  margin-top: var(--dl-space-space-twounits);
+  align-items: center;
+  border-color: var(--dl-color-gray-black);
+  border-style: solid;
+  border-width: 1px;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.listings-container26 {
+  width: 240px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  background-size: cover;
+  justify-content: center;
+  background-image: url('https://play.teleporthq.io/static/svg/default-img.svg');
+  background-position: center;
+}
+.listings-image09 {
+  width: 200px;
+  object-fit: cover;
+}
+.listings-container27 {
+  width: 450px;
+  height: 225px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+}
+.listings-ul09 {
+  flex: 1;
+  width: 100%;
+  height: 50%;
+  align-self: center;
+}
+.listings-button20 {
+  color: rgb(156, 13, 13);
+  right: 5px;
+  bottom: 4px;
+  position: absolute;
+  align-self: flex-end;
+  margin-right: 6px;
+  background-color: rgb(14, 35, 255);
+}
+.listings-text099 {
+  margin-left: 20px;
+  margin-bottom: 5px;
+}
+.listings-container28 {
+  width: 250px;
+  height: 200px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  border-color: rgba(120, 120, 120, 0.4);
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 14px;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: rgba(54, 56, 234, 0.09);
+}
+.listings-textinput19 {
+  width: 200px;
+  height: 35px;
+  margin-top: var(--dl-space-space-oneandhalfunits);
+  margin-left: var(--dl-space-space-halfunit);
+  background-color: transparent;
+}
+.listings-select19 {
+  width: 200px;
+  height: 30px;
+  margin-top: var(--dl-space-space-halfunit);
+  margin-left: var(--dl-space-space-halfunit);
+  border-color: var(--dl-color-gray-black);
+  border-width: 1px;
+  border-radius: 4px;
+  background-color: transparent;
+}
+.listings-select20 {
+  width: 200px;
+  height: 30px;
+  margin-top: var(--dl-space-space-halfunit);
+  margin-left: var(--dl-space-space-halfunit);
+  border-color: var(--dl-color-gray-black);
+  border-width: 1px;
+  border-radius: 4px;
+  background-color: transparent;
+}
+.listings-textinput20 {
+  width: 100px;
+  margin-top: var(--dl-space-space-halfunit);
+  margin-left: var(--dl-space-space-halfunit);
+  background-color: transparent;
+}
+.listings-button21 {
+  left: 114px;
+  color: rgb(255, 255, 255);
+  width: 125px;
+  bottom: 19px;
+  height: 31px;
+  position: absolute;
+  font-weight: bold;
+  border-color: #2335f5;
+  background-color: rgb(46, 56, 253);
+}
+.listings-navlink14 {
+  text-decoration: none;
+}
+.listings-text102 {
+  top: 9px;
+  left: 9px;
+  color: rgb(255, 255, 255);
+  width: var(--dl-size-size-small);
+  height: var(--dl-size-size-small);
+  position: absolute;
+  font-size: 22px;
+  align-self: flex-start;
+  text-align: center;
+  padding-top: 13px;
+  border-radius: 14px;
+  text-transform: uppercase;
+  background-color: rgb(50, 45, 247);
+}
+.listings-form10 {
+  width: 950px;
+  height: 225px;
+  display: flex;
+  position: relative;
+  align-self: center;
+  margin-top: var(--dl-space-space-twounits);
+  align-items: center;
+  border-color: var(--dl-color-gray-black);
+  border-style: solid;
+  border-width: 1px;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.listings-container29 {
+  width: 240px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  background-size: cover;
+  justify-content: center;
+  background-image: url('https://play.teleporthq.io/static/svg/default-img.svg');
+  background-position: center;
+}
+.listings-image10 {
+  width: 200px;
+  object-fit: cover;
+}
+.listings-container30 {
+  width: 450px;
+  height: 225px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+}
+.listings-ul10 {
+  flex: 1;
+  width: 100%;
+  height: 50%;
+  align-self: center;
+}
+.listings-button22 {
+  color: rgb(156, 13, 13);
+  right: 5px;
+  bottom: 4px;
+  position: absolute;
+  align-self: flex-end;
+  margin-right: 6px;
+  background-color: rgb(14, 35, 255);
+}
+.listings-text108 {
+  margin-left: 20px;
+  margin-bottom: 5px;
+}
+.listings-container31 {
+  width: 250px;
+  height: 200px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  border-color: rgba(120, 120, 120, 0.4);
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 14px;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: rgba(54, 56, 234, 0.09);
+}
+.listings-textinput21 {
+  width: 200px;
+  height: 35px;
+  margin-top: var(--dl-space-space-oneandhalfunits);
+  margin-left: var(--dl-space-space-halfunit);
+  background-color: transparent;
+}
+.listings-select21 {
+  width: 200px;
+  height: 30px;
+  margin-top: var(--dl-space-space-halfunit);
+  margin-left: var(--dl-space-space-halfunit);
+  border-color: var(--dl-color-gray-black);
+  border-width: 1px;
+  border-radius: 4px;
+  background-color: transparent;
+}
+.listings-select22 {
+  width: 200px;
+  height: 30px;
+  margin-top: var(--dl-space-space-halfunit);
+  margin-left: var(--dl-space-space-halfunit);
+  border-color: var(--dl-color-gray-black);
+  border-width: 1px;
+  border-radius: 4px;
+  background-color: transparent;
+}
+.listings-textinput22 {
+  width: 100px;
+  margin-top: var(--dl-space-space-halfunit);
+  margin-left: var(--dl-space-space-halfunit);
+  background-color: transparent;
+}
+.listings-button23 {
+  left: 114px;
+  color: rgb(255, 255, 255);
+  width: 125px;
+  bottom: 19px;
+  height: 31px;
+  position: absolute;
+  font-weight: bold;
+  border-color: #2335f5;
+  background-color: rgb(46, 56, 253);
+}
+.listings-navlink15 {
+  text-decoration: none;
+}
+.listings-text111 {
+  top: 9px;
+  left: 9px;
+  color: rgb(255, 255, 255);
+  width: var(--dl-size-size-small);
+  height: var(--dl-size-size-small);
+  position: absolute;
+  font-size: 22px;
+  align-self: flex-start;
+  text-align: center;
+  padding-top: 13px;
+  border-radius: 14px;
+  text-transform: uppercase;
+  background-color: rgb(50, 45, 247);
+}
+.listings-form11 {
+  width: 950px;
+  height: 225px;
+  display: flex;
+  position: relative;
+  align-self: center;
+  margin-top: var(--dl-space-space-twounits);
+  align-items: center;
+  border-color: var(--dl-color-gray-black);
+  border-style: solid;
+  border-width: 1px;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.listings-container32 {
+  width: 240px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  background-size: cover;
+  justify-content: center;
+  background-image: url('https://play.teleporthq.io/static/svg/default-img.svg');
+  background-position: center;
+}
+.listings-image11 {
+  width: 200px;
+  object-fit: cover;
+}
+.listings-container33 {
+  width: 450px;
+  height: 225px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+}
+.listings-ul11 {
+  flex: 1;
+  width: 100%;
+  height: 50%;
+  align-self: center;
+}
+.listings-button24 {
+  color: rgb(156, 13, 13);
+  right: 5px;
+  bottom: 4px;
+  position: absolute;
+  align-self: flex-end;
+  margin-right: 6px;
+  background-color: rgb(14, 35, 255);
+}
+.listings-text117 {
+  margin-left: 20px;
+  margin-bottom: 5px;
+}
+.listings-container34 {
+  width: 250px;
+  height: 200px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  border-color: rgba(120, 120, 120, 0.4);
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 14px;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: rgba(54, 56, 234, 0.09);
+}
+.listings-textinput23 {
+  width: 200px;
+  height: 35px;
+  margin-top: var(--dl-space-space-oneandhalfunits);
+  margin-left: var(--dl-space-space-halfunit);
+  background-color: transparent;
+}
+.listings-select23 {
+  width: 200px;
+  height: 30px;
+  margin-top: var(--dl-space-space-halfunit);
+  margin-left: var(--dl-space-space-halfunit);
+  border-color: var(--dl-color-gray-black);
+  border-width: 1px;
+  border-radius: 4px;
+  background-color: transparent;
+}
+.listings-select24 {
+  width: 200px;
+  height: 30px;
+  margin-top: var(--dl-space-space-halfunit);
+  margin-left: var(--dl-space-space-halfunit);
+  border-color: var(--dl-color-gray-black);
+  border-width: 1px;
+  border-radius: 4px;
+  background-color: transparent;
+}
+.listings-textinput24 {
+  width: 100px;
+  margin-top: var(--dl-space-space-halfunit);
+  margin-left: var(--dl-space-space-halfunit);
+  background-color: transparent;
+}
+.listings-button25 {
+  left: 114px;
+  color: rgb(255, 255, 255);
+  width: 125px;
+  bottom: 19px;
+  height: 31px;
+  position: absolute;
+  font-weight: bold;
+  border-color: #2335f5;
+  background-color: rgb(46, 56, 253);
+}
+.listings-navlink16 {
+  text-decoration: none;
+}
+.listings-text120 {
+  top: 9px;
+  left: 9px;
+  color: rgb(255, 255, 255);
+  width: var(--dl-size-size-small);
+  height: var(--dl-size-size-small);
+  position: absolute;
+  font-size: 22px;
+  align-self: flex-start;
+  text-align: center;
+  padding-top: 13px;
+  border-radius: 14px;
+  text-transform: uppercase;
+  background-color: rgb(50, 45, 247);
+}
+.listings-form12 {
+  width: 950px;
+  height: 225px;
+  display: flex;
+  position: relative;
+  align-self: center;
+  margin-top: var(--dl-space-space-twounits);
+  align-items: center;
+  border-color: var(--dl-color-gray-black);
+  border-style: solid;
+  border-width: 1px;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.listings-container35 {
+  width: 240px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  background-size: cover;
+  justify-content: center;
+  background-image: url('https://play.teleporthq.io/static/svg/default-img.svg');
+  background-position: center;
+}
+.listings-image12 {
+  width: 200px;
+  object-fit: cover;
+}
+.listings-container36 {
+  width: 450px;
+  height: 225px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+}
+.listings-ul12 {
+  flex: 1;
+  width: 100%;
+  height: 50%;
+  align-self: center;
+}
+.listings-button26 {
+  color: rgb(156, 13, 13);
+  right: 5px;
+  bottom: 4px;
+  position: absolute;
+  align-self: flex-end;
+  margin-right: 6px;
+  background-color: rgb(14, 35, 255);
+}
+.listings-text126 {
+  margin-left: 20px;
+  margin-bottom: 5px;
+}
+.listings-container37 {
+  width: 250px;
+  height: 200px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  border-color: rgba(120, 120, 120, 0.4);
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 14px;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: rgba(54, 56, 234, 0.09);
+}
+.listings-textinput25 {
+  width: 200px;
+  height: 35px;
+  margin-top: var(--dl-space-space-oneandhalfunits);
+  margin-left: var(--dl-space-space-halfunit);
+  background-color: transparent;
+}
+.listings-select25 {
+  width: 200px;
+  height: 30px;
+  margin-top: var(--dl-space-space-halfunit);
+  margin-left: var(--dl-space-space-halfunit);
+  border-color: var(--dl-color-gray-black);
+  border-width: 1px;
+  border-radius: 4px;
+  background-color: transparent;
+}
+.listings-select26 {
+  width: 200px;
+  height: 30px;
+  margin-top: var(--dl-space-space-halfunit);
+  margin-left: var(--dl-space-space-halfunit);
+  border-color: var(--dl-color-gray-black);
+  border-width: 1px;
+  border-radius: 4px;
+  background-color: transparent;
+}
+.listings-textinput26 {
+  width: 100px;
+  margin-top: var(--dl-space-space-halfunit);
+  margin-left: var(--dl-space-space-halfunit);
+  background-color: transparent;
+}
+.listings-button27 {
+  left: 114px;
+  color: rgb(255, 255, 255);
+  width: 125px;
+  bottom: 19px;
+  height: 31px;
+  position: absolute;
+  font-weight: bold;
+  border-color: #2335f5;
+  background-color: rgb(46, 56, 253);
+}
+.listings-navlink17 {
+  text-decoration: none;
+}
+.listings-text129 {
+  top: 9px;
+  left: 9px;
+  color: rgb(255, 255, 255);
+  width: var(--dl-size-size-small);
+  height: var(--dl-size-size-small);
+  position: absolute;
+  font-size: 22px;
+  align-self: flex-start;
+  text-align: center;
+  padding-top: 13px;
+  border-radius: 14px;
+  text-transform: uppercase;
+  background-color: rgb(50, 45, 247);
+}
+.listings-form13 {
+  width: 950px;
+  height: 225px;
+  display: flex;
+  position: relative;
+  align-self: center;
+  margin-top: var(--dl-space-space-twounits);
+  align-items: center;
+  border-color: var(--dl-color-gray-black);
+  border-style: solid;
+  border-width: 1px;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.listings-container38 {
+  width: 240px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  background-size: cover;
+  justify-content: center;
+  background-image: url('https://play.teleporthq.io/static/svg/default-img.svg');
+  background-position: center;
+}
+.listings-image13 {
+  width: 200px;
+  object-fit: cover;
+}
+.listings-container39 {
+  width: 450px;
+  height: 225px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+}
+.listings-ul13 {
+  flex: 1;
+  width: 100%;
+  height: 50%;
+  align-self: center;
+}
+.listings-button28 {
+  color: rgb(156, 13, 13);
+  right: 5px;
+  bottom: 4px;
+  position: absolute;
+  align-self: flex-end;
+  margin-right: 6px;
+  background-color: rgb(14, 35, 255);
+}
+.listings-text135 {
+  margin-left: 20px;
+  margin-bottom: 5px;
+}
+.listings-container40 {
+  width: 250px;
+  height: 200px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  border-color: rgba(120, 120, 120, 0.4);
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 14px;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: rgba(54, 56, 234, 0.09);
+}
+.listings-textinput27 {
+  width: 200px;
+  height: 35px;
+  margin-top: var(--dl-space-space-oneandhalfunits);
+  margin-left: var(--dl-space-space-halfunit);
+  background-color: transparent;
+}
+.listings-select27 {
+  width: 200px;
+  height: 30px;
+  margin-top: var(--dl-space-space-halfunit);
+  margin-left: var(--dl-space-space-halfunit);
+  border-color: var(--dl-color-gray-black);
+  border-width: 1px;
+  border-radius: 4px;
+  background-color: transparent;
+}
+.listings-select28 {
+  width: 200px;
+  height: 30px;
+  margin-top: var(--dl-space-space-halfunit);
+  margin-left: var(--dl-space-space-halfunit);
+  border-color: var(--dl-color-gray-black);
+  border-width: 1px;
+  border-radius: 4px;
+  background-color: transparent;
+}
+.listings-textinput28 {
+  width: 100px;
+  margin-top: var(--dl-space-space-halfunit);
+  margin-left: var(--dl-space-space-halfunit);
+  background-color: transparent;
+}
+.listings-button29 {
+  left: 114px;
+  color: rgb(255, 255, 255);
+  width: 125px;
+  bottom: 19px;
+  height: 31px;
+  position: absolute;
+  font-weight: bold;
+  border-color: #2335f5;
+  background-color: rgb(46, 56, 253);
+}
+.listings-navlink18 {
+  text-decoration: none;
+}
+.listings-text138 {
+  top: 9px;
+  left: 9px;
+  color: rgb(255, 255, 255);
+  width: var(--dl-size-size-small);
+  height: var(--dl-size-size-small);
+  position: absolute;
+  font-size: 22px;
+  align-self: flex-start;
+  text-align: center;
+  padding-top: 13px;
+  border-radius: 14px;
+  text-transform: uppercase;
+  background-color: rgb(50, 45, 247);
+}
+.listings-form14 {
+  width: 950px;
+  height: 225px;
+  display: flex;
+  position: relative;
+  align-self: center;
+  margin-top: var(--dl-space-space-twounits);
+  align-items: center;
+  border-color: var(--dl-color-gray-black);
+  border-style: solid;
+  border-width: 1px;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.listings-image14 {
+  width: 240px;
+  height: 100%;
+  object-fit: cover;
+}
+.listings-container41 {
+  width: 450px;
+  height: 225px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+}
+.listings-ul14 {
+  flex: 1;
+  width: 100%;
+  height: 50%;
+  align-self: center;
+}
+.listings-button30 {
+  color: rgb(156, 13, 13);
+  right: 5px;
+  bottom: 4px;
+  position: absolute;
+  align-self: flex-end;
+  margin-right: 6px;
+  background-color: rgb(14, 35, 255);
+}
+.listings-text144 {
+  margin-left: 20px;
+  margin-bottom: 5px;
+}
+.listings-container42 {
+  width: 250px;
+  height: 200px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  border-color: rgba(120, 120, 120, 0.4);
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 14px;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: rgba(54, 56, 234, 0.09);
+}
+.listings-textinput29 {
+  width: 200px;
+  height: 35px;
+  margin-top: var(--dl-space-space-oneandhalfunits);
+  margin-left: var(--dl-space-space-halfunit);
+  background-color: transparent;
+}
+.listings-select29 {
+  width: 200px;
+  height: 30px;
+  margin-top: var(--dl-space-space-halfunit);
+  margin-left: var(--dl-space-space-halfunit);
+  border-color: var(--dl-color-gray-black);
+  border-width: 1px;
+  border-radius: 4px;
+  background-color: transparent;
+}
+.listings-select30 {
+  width: 200px;
+  height: 30px;
+  margin-top: var(--dl-space-space-halfunit);
+  margin-left: var(--dl-space-space-halfunit);
+  border-color: var(--dl-color-gray-black);
+  border-width: 1px;
+  border-radius: 4px;
+  background-color: transparent;
+}
+.listings-textinput30 {
+  width: 100px;
+  margin-top: var(--dl-space-space-halfunit);
+  margin-left: var(--dl-space-space-halfunit);
+  background-color: transparent;
+}
+.listings-button31 {
+  left: 114px;
+  color: rgb(255, 255, 255);
+  width: 125px;
+  bottom: 19px;
+  height: 31px;
+  position: absolute;
+  font-weight: bold;
+  border-color: #2335f5;
+  background-color: rgb(46, 56, 253);
+}
+.listings-navlink19 {
+  text-decoration: none;
+}
+.listings-text147 {
+  top: 9px;
+  left: 9px;
+  color: rgb(255, 255, 255);
+  width: var(--dl-size-size-small);
+  height: var(--dl-size-size-small);
+  position: absolute;
+  font-size: 22px;
+  align-self: flex-start;
+  text-align: center;
+  padding-top: 13px;
+  border-radius: 14px;
+  text-transform: uppercase;
+  background-color: rgb(50, 45, 247);
+}
+@media(max-width: 1200px) {
+  .listings-container02 {
+    height: 4085px;
+    margin-bottom: var(--dl-space-space-threeunits);
+  }
+  .listings-button02 {
+    left: 114px;
+    width: 95px;
+    bottom: 9px;
+    height: 48px;
+  }
+  .listings-button04 {
+    width: 95px;
+  }
+  .listings-button05 {
+    left: 114px;
+    width: 95px;
+    bottom: 9px;
+    height: 48px;
+  }
+  .listings-button07 {
+    left: 114px;
+    width: 95px;
+    bottom: 9px;
+    height: 48px;
+  }
+  .listings-button09 {
+    left: 114px;
+    width: 95px;
+    bottom: 9px;
+    height: 48px;
+  }
+  .listings-button11 {
+    left: 114px;
+    width: 95px;
+    bottom: 9px;
+    height: 48px;
+  }
+  .listings-text050 {
+    color: rgb(255, 255, 255);
+    font-size: 22px;
+    text-transform: uppercase;
+    background-color: rgb(50, 45, 247);
+  }
+  .listings-button13 {
+    left: 114px;
+    width: 95px;
+    bottom: 9px;
+    height: 48px;
+  }
+  .listings-text063 {
+    color: rgb(255, 255, 255);
+    font-size: 22px;
+    text-transform: uppercase;
+    background-color: rgb(50, 45, 247);
+  }
+  .listings-button15 {
+    left: 114px;
+    width: 95px;
+    bottom: 9px;
+    height: 48px;
+  }
+  .listings-text072 {
+    color: rgb(255, 255, 255);
+    font-size: 22px;
+    text-transform: uppercase;
+    background-color: rgb(50, 45, 247);
+  }
+  .listings-image07 {
+    width: 100%;
+    height: 215px;
+  }
+  .listings-button17 {
+    left: 114px;
+    width: 95px;
+    bottom: 9px;
+    height: 48px;
+  }
+  .listings-image08 {
+    width: 100%;
+    height: 216px;
+  }
+  .listings-button19 {
+    left: 114px;
+    width: 95px;
+    bottom: 9px;
+    height: 48px;
+  }
+  .listings-image09 {
+    width: 100%;
+    height: 215px;
+  }
+  .listings-button21 {
+    left: 114px;
+    width: 95px;
+    bottom: 9px;
+    height: 48px;
+  }
+  .listings-image10 {
+    width: 100%;
+    height: 219px;
+  }
+  .listings-button23 {
+    left: 114px;
+    width: 95px;
+    bottom: 9px;
+    height: 48px;
+  }
+  .listings-text111 {
+    color: rgb(255, 255, 255);
+    font-size: 22px;
+    text-transform: uppercase;
+    background-color: rgb(50, 45, 247);
+  }
+  .listings-image11 {
+    width: 230px;
+    height: 214px;
+  }
+  .listings-button25 {
+    left: 114px;
+    width: 95px;
+    bottom: 9px;
+    height: 48px;
+  }
+  .listings-image12 {
+    width: 100%;
+    height: 215px;
+  }
+  .listings-button27 {
+    left: 114px;
+    width: 95px;
+    bottom: 9px;
+    height: 48px;
+  }
+  .listings-text129 {
+    color: rgb(255, 255, 255);
+    font-size: 22px;
+    text-transform: uppercase;
+    background-color: rgb(50, 45, 247);
+  }
+  .listings-image13 {
+    width: 100%;
+    height: 222px;
+  }
+  .listings-button29 {
+    left: 114px;
+    width: 95px;
+    bottom: 9px;
+    height: 48px;
+  }
+  .listings-button31 {
+    left: 114px;
+    width: 95px;
+    bottom: 9px;
+    height: 48px;
+  }
 }
 @media(max-width: 767px) {
   .listings-navbar-interactive {
@@ -726,19 +2344,19 @@
   .listings-text {
     margin-bottom: var(--dl-space-space-unit);
   }
-  .listings-text01 {
+  .listings-text001 {
     margin-left: 0;
     margin-bottom: var(--dl-space-space-unit);
   }
-  .listings-text02 {
+  .listings-text002 {
     margin-left: 0;
     margin-bottom: var(--dl-space-space-unit);
   }
-  .listings-text03 {
+  .listings-text003 {
     margin-left: 0;
     margin-bottom: var(--dl-space-space-unit);
   }
-  .listings-text04 {
+  .listings-text004 {
     margin-left: 0;
     margin-bottom: var(--dl-space-space-unit);
   }

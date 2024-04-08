@@ -54,10 +54,6 @@
 .my-listings-menu {
   display: none;
 }
-.my-listings-icon {
-  width: var(--dl-size-size-xsmall);
-  height: var(--dl-size-size-xsmall);
-}
 .my-listings-mobile-menu {
   top: 0px;
   left: 0px;
@@ -91,7 +87,7 @@
   align-items: center;
   justify-content: center;
 }
-.my-listings-icon02 {
+.my-listings-icon {
   width: var(--dl-size-size-xsmall);
   height: var(--dl-size-size-xsmall);
 }
@@ -127,17 +123,17 @@
 .my-listings-login {
   margin-right: var(--dl-space-space-twounits);
 }
-.my-listings-icon04 {
+.my-listings-icon2 {
   width: var(--dl-size-size-xsmall);
   height: var(--dl-size-size-xsmall);
   margin-right: var(--dl-space-space-twounits);
 }
-.my-listings-icon06 {
+.my-listings-icon4 {
   width: var(--dl-size-size-xsmall);
   height: var(--dl-size-size-xsmall);
   margin-right: var(--dl-space-space-twounits);
 }
-.my-listings-icon08 {
+.my-listings-icon6 {
   width: var(--dl-size-size-xsmall);
   height: var(--dl-size-size-xsmall);
 }

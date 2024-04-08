@@ -81,10 +81,6 @@
 .mission-menu {
   display: none;
 }
-.mission-icon {
-  width: var(--dl-size-size-xsmall);
-  height: var(--dl-size-size-xsmall);
-}
 .mission-mobile-menu {
   top: 0px;
   left: 0px;
@@ -118,7 +114,7 @@
   align-items: center;
   justify-content: center;
 }
-.mission-icon02 {
+.mission-icon {
   width: var(--dl-size-size-xsmall);
   height: var(--dl-size-size-xsmall);
 }
@@ -154,17 +150,17 @@
 .mission-login {
   margin-right: var(--dl-space-space-twounits);
 }
-.mission-icon04 {
+.mission-icon2 {
   width: var(--dl-size-size-xsmall);
   height: var(--dl-size-size-xsmall);
   margin-right: var(--dl-space-space-twounits);
 }
-.mission-icon06 {
+.mission-icon4 {
   width: var(--dl-size-size-xsmall);
   height: var(--dl-size-size-xsmall);
   margin-right: var(--dl-space-space-twounits);
 }
-.mission-icon08 {
+.mission-icon6 {
   width: var(--dl-size-size-xsmall);
   height: var(--dl-size-size-xsmall);
 }

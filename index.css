@@ -151,19 +151,19 @@
   object-fit: cover;
   text-decoration: none;
 }
+.home-navlink2 {
+  top: 41px;
+  left: 190px;
+  position: absolute;
+  font-family: "Times New Roman";
+  text-decoration: none;
+}
 .home-login1 {
   top: 31px;
   right: 172px;
   position: absolute;
   font-family: "Times New Roman";
   border-width: 0px;
-  text-decoration: none;
-}
-.home-navlink2 {
-  top: 41px;
-  left: 190px;
-  position: absolute;
-  font-family: "Times New Roman";
   text-decoration: none;
 }
 .home-navlink3 {

@@ -54,10 +54,6 @@
 .upload-new-menu {
   display: none;
 }
-.upload-new-icon {
-  width: var(--dl-size-size-xsmall);
-  height: var(--dl-size-size-xsmall);
-}
 .upload-new-mobile-menu {
   top: 0px;
   left: 0px;
@@ -91,7 +87,7 @@
   align-items: center;
   justify-content: center;
 }
-.upload-new-icon02 {
+.upload-new-icon {
   width: var(--dl-size-size-xsmall);
   height: var(--dl-size-size-xsmall);
 }
@@ -127,17 +123,17 @@
 .upload-new-login {
   margin-right: var(--dl-space-space-twounits);
 }
-.upload-new-icon04 {
+.upload-new-icon2 {
   width: var(--dl-size-size-xsmall);
   height: var(--dl-size-size-xsmall);
   margin-right: var(--dl-space-space-twounits);
 }
-.upload-new-icon06 {
+.upload-new-icon4 {
   width: var(--dl-size-size-xsmall);
   height: var(--dl-size-size-xsmall);
   margin-right: var(--dl-space-space-twounits);
 }
-.upload-new-icon08 {
+.upload-new-icon6 {
   width: var(--dl-size-size-xsmall);
   height: var(--dl-size-size-xsmall);
 }
