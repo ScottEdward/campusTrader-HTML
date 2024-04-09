@@ -158,14 +158,6 @@
   font-family: "Times New Roman";
   text-decoration: none;
 }
-.home-login1 {
-  top: 31px;
-  right: 172px;
-  position: absolute;
-  font-family: "Times New Roman";
-  border-width: 0px;
-  text-decoration: none;
-}
 .home-navlink3 {
   top: 42px;
   left: 296px;
@@ -184,7 +176,7 @@
   color: #ffffff;
   font-family: "Times New Roman";
   text-decoration: none;
-  background-color: #3143ff;
+  background-color: #3e48ff;
 }
 .home-container1 {
   width: 352px;
@@ -229,6 +221,16 @@
 }
 .home-text08 {
   font-family: "Times New Roman";
+}
+@media(max-width: 1600px) {
+  .home-register1 {
+    color: rgb(255, 255, 255);
+    align-self: center;
+    font-family: Times New Roman;
+    margin-left: var(--dl-space-space-sixunits);
+    text-decoration: none;
+    background-color: rgb(62, 72, 255);
+  }
 }
 @media(max-width: 1200px) {
   .home-desktop-menu {
