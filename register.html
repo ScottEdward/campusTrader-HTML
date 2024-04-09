@@ -58,12 +58,6 @@
                     <path
                       d="M810 274l-238 238 238 238-60 60-238-238-238 238-60-60 238-238-238-238 60-60 238 238 238-238z"
                     ></path></svg></div></div
-              ><nav class="register-links"
-                ><span class="register-text">About</span
-                ><span class="register-text01">Features</span
-                ><span class="register-text02">Pricing</span
-                ><span class="register-text03">Team</span
-                ><span class="register-text04">Blog</span></nav
               ><div class="register-buttons"
                 ><button class="register-login button">Login</button
                 ><button class="button">Register</button></div
@@ -98,6 +92,7 @@
             type="text"
             placeholder="6+2@mail.edu"
             class="register-textinput1 input"
+			id="myEmail"
           /><span class="register-text10">Password</span
           ><input
             type="text"
@@ -108,16 +103,29 @@
             type="text"
             placeholder="*******"
             class="register-textinput3 input"
-          /><a href="index.html" class="register-navlink button"
-            ><span><span>Sign Up</span><br /></span></a
-          ><a href="login.html" class="register-navlink1"
+          /><button id="submitButton" class="register-navlink button" onclick="myVerify()"
+            ><span><span><center>Sign Up</center></span><br /></span>
+			</button>
+		  <a href="login.html" class="register-navlink1"
             >Already have an account? Log in</a
           ></div
-        ></main
+        ><p id="errorMessage" class="error" style="display: none;">Invalid email address</p></main
       ></div
     >
     <script
       defer=""
       src="https://unpkg.com/@teleporthq/teleport-custom-scripts"
-    ></script></body
+    ></script>
+	<script>
+     function myVerify() {
+	var myEmail = document.getElementById('myEmail').value;
+	var errorMessage = document.getElementById('errorMessage');
+    if (myEmail.endsWith('@mail.uc.edu')) {
+        errorMessage.style.display = 'none';
+        window.location.href = 'index.html';
+    } else {
+        errorMessage.style.display = 'block';
+    }
+}
+</script></body
 ></html>

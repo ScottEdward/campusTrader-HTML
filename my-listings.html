@@ -63,12 +63,6 @@
                     <path
                       d="M810 274l-238 238 238 238-60 60-238-238-238 238-60-60 238-238-238-238 60-60 238 238 238-238z"
                     ></path></svg></div></div
-              ><nav class="my-listings-links1"
-                ><span class="my-listings-text">About</span
-                ><span class="my-listings-text01">Features</span
-                ><span class="my-listings-text02">Pricing</span
-                ><span class="my-listings-text03">Team</span
-                ><span class="my-listings-text04">Blog</span></nav
               ><div class="my-listings-buttons"
                 ><button class="my-listings-login button">Login</button
                 ><button class="button">Register</button></div
@@ -115,9 +109,9 @@
               src="public/external/surface-300h-300h.png"
               class="my-listings-image" /><div class="my-listings-container02"
               ><ul class="my-listings-ul list"
-                ><li class="list-item"><h2>Surface Laptop Charger</h2></li
-                ><li class="list-item"><span>Condition: Lightly Used</span></li
-                ><li class="list-item"
+                ><li class="list-item" contenteditable="true"><h2>Surface Laptop Charger</h2></li
+                ><li class="list-item" contenteditable="true"><span>Condition: Lightly Used</span></li
+                ><li class="list-item" contenteditable="true"
                   ><span
                     >Description: Surface 2 magnetic charger works with all
                     models and things. Good design, very human.</span
@@ -129,9 +123,10 @@
               name="Submit Offer"
               type="button"
               class="my-listings-button button"
-              ><span><span>Edit Listing</span><br /></span></button></form
+			  onclick="myListingUpdate()"
+              ><span><span id="myLU">Edit Listing</span><br /></span></button></form
           ><a href="upload-new.html" class="my-listings-navlink5 button"
-            >Upload New Listing</a
+            ><center>Upload New Listing</center></a
           ></div
         ><div class="my-listings-container03"
           ><h1 class="my-listings-text17">Offers received on My Listings</h1
@@ -145,7 +140,8 @@
                 name="Submit Offer"
                 type="button"
                 class="my-listings-button1 button"
-                ><span><span>Accept Offer</span><br /></span></button
+				onclick="myFunction1()"
+                ><span><span id="myDIV1">Accept Offer</span><br /></span></button
               ><span class="my-listings-text21">Buyer's Offer </span
               ><span class="my-listings-text22"
                 ><span>10/29/2023</span><br /><span>Langsam Library</span
@@ -155,36 +151,20 @@
                   >Buyer Rating: 1.2/5 (53)</span
                 ><br /></span></section
             ><span class="my-listings-text36">OR</span
-            ><section class="my-listings-container05"
+            ><section class="my-listings-container05" 
               ><input
                 type="datetime-local"
                 placeholder="placeholder"
                 class="my-listings-textinput input" /><select
                 class="my-listings-select"
-                ><option value="Option 1">Option 1</option
-                ><option value="Option 1">Option 1</option
-                ><option value="Option 2">Option 2</option
-                ><option value="Option 2">Option 2</option
-                ><option value="Option 3">Option 3</option
-                ><option value="Option 3">Option 3</option
                 ><option value="null" selected="">Place</option
-                ><option value="Option 1">Option 1</option
-                ><option value="loc1">Langsam Library</option
-                ><option value="Option 2">Option 2</option
-                ><option value="Option 3">Option 3</option></select
+                ><option value="loc1">CECH Library</option
+                ><option value="loc2">CCM Library</option
+                ><option value="loc3">Langsam Library</option></select
               ><select class="my-listings-select1"
-                ><option value="Option 1">Option 1</option
-                ><option value="Option 1">Option 1</option
-                ><option value="Option 2">Option 2</option
-                ><option value="Option 2">Option 2</option
-                ><option value="Option 3">Option 3</option
-                ><option value="Option 3">Option 3</option
                 ><option value="null" selected="">Payment Method</option
-                ><option value="Option 1">Option 1</option
                 ><option value="popt1">Cash</option
-                ><option value="Option 2">Option 2</option
                 ><option value="popt2">Venmo</option
-                ><option value="Option 3">Option 3</option
                 ><option value="popt3">CashApp</option
                 ><option value="opot4">Zelle</option></select
               ><input
@@ -194,8 +174,9 @@
                 name="Submit Offer"
                 type="button"
                 class="my-listings-button2 button"
+				onclick="myCounter1()"
                 ><span class="my-listings-text37"
-                  ><span>Counter Offer</span><br /></span></button></section
+                  ><span id="myCounter1">Counter Offer</span><br /></span></button></section
             ><label class="my-listings-text40"
               ><span>Surface Laptop Charger</span><br /></label></form
           ><form class="my-listings-form2"
@@ -208,7 +189,8 @@
                 name="Submit Offer"
                 type="button"
                 class="my-listings-button3 button"
-                ><span><span>Accept Offer</span><br /></span></button
+				onclick="myFunction2()"
+                ><span><span id="myDIV2">Accept Offer</span><br /></span></button
               ><span class="my-listings-text46">Buyer's Offer </span
               ><span class="my-listings-text47"
                 ><span>10/29/2023</span><br /><span>CCM Library</span
@@ -224,36 +206,14 @@
                 placeholder="placeholder"
                 class="my-listings-textinput2 input" /><select
                 class="my-listings-select2"
-                ><option value="Option 1">Option 1</option
-                ><option value="Option 1">Option 1</option
-                ><option value="Option 1">Option 1</option
-                ><option value="Option 2">Option 2</option
-                ><option value="Option 2">Option 2</option
-                ><option value="Option 2">Option 2</option
-                ><option value="Option 3">Option 3</option
-                ><option value="Option 3">Option 3</option
-                ><option value="Option 3">Option 3</option
                 ><option value="null" selected="">Place</option
-                ><option value="Option 1">Option 1</option
-                ><option value="loc1">Langsam Library</option
-                ><option value="Option 2">Option 2</option
-                ><option value="Option 3">Option 3</option></select
+                ><option value="loc1">CECH Library</option
+                ><option value="loc2">CCM Library</option
+                ><option value="loc3">Langsam Library</option></select
               ><select class="my-listings-select3"
-                ><option value="Option 1">Option 1</option
-                ><option value="Option 1">Option 1</option
-                ><option value="Option 1">Option 1</option
-                ><option value="Option 2">Option 2</option
-                ><option value="Option 2">Option 2</option
-                ><option value="Option 2">Option 2</option
-                ><option value="Option 3">Option 3</option
-                ><option value="Option 3">Option 3</option
-                ><option value="Option 3">Option 3</option
                 ><option value="null" selected="">Payment Method</option
-                ><option value="Option 1">Option 1</option
                 ><option value="popt1">Cash</option
-                ><option value="Option 2">Option 2</option
                 ><option value="popt2">Venmo</option
-                ><option value="Option 3">Option 3</option
                 ><option value="popt3">CashApp</option
                 ><option value="opot4">Zelle</option></select
               ><input
@@ -263,7 +223,8 @@
                 name="Submit Offer"
                 type="button"
                 class="my-listings-button4 button"
-                ><span><span>Counter Offer</span><br /></span></button></section
+				onclick="myCounter2()"
+                ><span><span id="myCounter2">Counter Offer</span><br /></span></button></section
             ><label class="my-listings-text65"
               ><span>Surface Laptop Charger</span><br /></label></form
           ><form class="my-listings-form3"
@@ -276,7 +237,8 @@
                 name="Submit Offer"
                 type="button"
                 class="my-listings-button5 button"
-                ><span><span>Accept Offer</span><br /></span></button
+				onclick="myFunction3()"
+                ><span><span id="myDIV3">Accept Offer</span><br /></span></button
               ><span class="my-listings-text71">Buyer's Offer </span
               ><span class="my-listings-text72"
                 ><span>10/29/2023</span><br /><span>Langsam Library</span
@@ -292,36 +254,14 @@
                 placeholder="placeholder"
                 class="my-listings-textinput4 input" /><select
                 class="my-listings-select4"
-                ><option value="Option 1">Option 1</option
-                ><option value="Option 1">Option 1</option
-                ><option value="Option 1">Option 1</option
-                ><option value="Option 2">Option 2</option
-                ><option value="Option 2">Option 2</option
-                ><option value="Option 2">Option 2</option
-                ><option value="Option 3">Option 3</option
-                ><option value="Option 3">Option 3</option
-                ><option value="Option 3">Option 3</option
                 ><option value="null" selected="">Place</option
-                ><option value="Option 1">Option 1</option
-                ><option value="loc1">Langsam Library</option
-                ><option value="Option 2">Option 2</option
-                ><option value="Option 3">Option 3</option></select
+                ><option value="loc1">CECH Library</option
+                ><option value="loc2">CCM Library</option
+                ><option value="loc3">Langsam Library</option></select
               ><select class="my-listings-select5"
-                ><option value="Option 1">Option 1</option
-                ><option value="Option 1">Option 1</option
-                ><option value="Option 1">Option 1</option
-                ><option value="Option 2">Option 2</option
-                ><option value="Option 2">Option 2</option
-                ><option value="Option 2">Option 2</option
-                ><option value="Option 3">Option 3</option
-                ><option value="Option 3">Option 3</option
-                ><option value="Option 3">Option 3</option
                 ><option value="null" selected="">Payment Method</option
-                ><option value="Option 1">Option 1</option
                 ><option value="popt1">Cash</option
-                ><option value="Option 2">Option 2</option
                 ><option value="popt2">Venmo</option
-                ><option value="Option 3">Option 3</option
                 ><option value="popt3">CashApp</option
                 ><option value="opot4">Zelle</option></select
               ><input
@@ -331,7 +271,8 @@
                 name="Submit Offer"
                 type="button"
                 class="my-listings-button6 button"
-                ><span><span>Counter Offer</span><br /></span></button></section
+				onclick="myCounter3()"
+                ><span><span id="myCounter3">Counter Offer</span><br /></span></button></section
             ><label class="my-listings-text90"
               ><span>Surface Laptop Charger</span
               ><br /></label></form></div></div
@@ -339,5 +280,76 @@
     <script
       defer=""
       src="https://unpkg.com/@teleporthq/teleport-custom-scripts"
-    ></script></body
+    ></script>
+	
+	<script>
+		function myFunction1() {
+  var x = document.getElementById("myDIV1");
+  if (x.innerHTML === "Accept Offer") {
+    x.innerHTML = "Offer Accepted";
+  } else {
+    x.innerHTML = "Offer Accepted";
+  }
+}
+</script>
+<script>
+		function myFunction2() {
+  var x = document.getElementById("myDIV2");
+  if (x.innerHTML === "Accept Offer") {
+    x.innerHTML = "Offer Accepted";
+  } else {
+    x.innerHTML = "Offer Accepted";
+  }
+}
+</script>
+<script>
+		function myFunction3() {
+  var x = document.getElementById("myDIV3");
+  if (x.innerHTML === "Accept Offer") {
+    x.innerHTML = "Offer Accepted";
+  } else {
+    x.innerHTML = "Offer Accepted";
+  }
+}
+</script>
+<script>
+		function myCounter1() {
+  var x = document.getElementById("myCounter1");
+  if (x.innerHTML === "Counter Offer") {
+    x.innerHTML = "Counter Submitted";
+  } else {
+    x.innerHTML = "Counter Submitted";
+  }
+}
+</script>
+<script>
+		function myCounter2() {
+  var x = document.getElementById("myCounter2");
+  if (x.innerHTML === "Counter Offer") {
+    x.innerHTML = "Counter Submitted";
+  } else {
+    x.innerHTML = "Counter Submitted";
+  }
+}
+</script>
+<script>
+		function myCounter3() {
+  var x = document.getElementById("myCounter3");
+  if (x.innerHTML === "Counter Offer") {
+    x.innerHTML = "Counter Submitted";
+  } else {
+    x.innerHTML = "Counter Submitted";
+  }
+}
+</script>
+<script>
+		function myListingUpdate() {
+  var x = document.getElementById("myLU");
+  if (x.innerHTML === "Edit Listing") {
+    x.innerHTML = "Listing Updated";
+  } else {
+    x.innerHTML = "Listing Updated";
+  }
+}
+</script></body
 ></html>

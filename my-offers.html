@@ -63,12 +63,6 @@
                     <path
                       d="M810 274l-238 238 238 238-60 60-238-238-238 238-60-60 238-238-238-238 60-60 238 238 238-238z"
                     ></path></svg></div></div
-              ><nav class="my-offers-links1"
-                ><span class="my-offers-text">About</span
-                ><span class="my-offers-text01">Features</span
-                ><span class="my-offers-text02">Pricing</span
-                ><span class="my-offers-text03">Team</span
-                ><span class="my-offers-text04">Blog</span></nav
               ><div class="my-offers-buttons"
                 ><button class="my-offers-login button">Login</button
                 ><button class="button">Register</button></div
@@ -122,8 +116,9 @@
                 name="Submit Offer"
                 type="button"
                 class="my-offers-button button"
-                ><span><span>Edit Offer</span><br /></span></button
-              ><span class="my-offers-text16"
+				onclick="myEdit1()"
+                ><span><span id="myEdit1">Edit Offer</span><br /></span></button
+              ><span class="my-offers-text16" contenteditable="true"
                 ><span>10/29/2023 12:30</span><br /><span>Langsam Library</span
                 ><br /><span>Cash</span><br /><span>$12</span><br /></span
               ><span class="my-offers-text25"
@@ -135,8 +130,9 @@
                 name="Submit Offer"
                 type="button"
                 class="my-offers-button1 button"
+				onclick="myCancel1()"
                 ><span class="my-offers-text29"
-                  ><span>Cancel</span><br /></span></button
+                  ><span id="myCancel1">Cancel</span><br /></span></button
               ><span class="my-offers-text32"
                 ><span>No Response</span><br /><span> from Seller</span></span
               ></section
@@ -149,7 +145,7 @@
               class="my-offers-image1" /><section class="my-offers-container06"
               ><span class="my-offers-text39"
                 ><span>Your Request</span><br /></span
-              ><span class="my-offers-text42"
+              ><span class="my-offers-text42" contenteditable="true"
                 ><span>10/29/2023 12:30</span><br /><span>Langsam Library</span
                 ><br /><span>Cash</span><br /><span>$12</span><br /></span
               ><span class="my-offers-text51"
@@ -161,12 +157,14 @@
                 name="Submit Offer"
                 type="button"
                 class="my-offers-button2 button"
-                ><span><span>Cancel</span><br /></span></button
+				onclick="myCancel2()"
+                ><span><span id="myCancel2">Cancel</span><br /></span></button
               ><button
                 name="Submit Offer"
                 type="button"
                 class="my-offers-button3 button"
-                ><span><span>Edit Offer</span><br /></span></button
+				onclick="myEdit2()"
+                ><span><span id="myEdit2">Edit Offer</span><br /></span></button
               ><span class="my-offers-text61"
                 ><span>Seller has</span><br /><span>accepted your</span
                 ><br /><span>Offer</span><br /></span></section
@@ -181,7 +179,8 @@
                 name="Submit Offer"
                 type="submit"
                 class="my-offers-button4 button"
-                ><span><span>Accept Offer</span><br /></span></button
+				onclick="myAccept1()"
+                ><span><span id="myAccept1">Accept Offer</span><br /></span></button
               ><span class="my-offers-text74">Seller's Counter Offer</span
               ><span class="my-offers-text75"
                 ><span>10/29/2023 12:30</span><br /><span>Langsam Library</span
@@ -196,9 +195,9 @@
                 placeholder="placeholder"
                 class="my-offers-textinput input" /><select
                 class="my-offers-select"
-                ><option value="null">Place</option
+                ><option value="null" selected="">Place</option
                 ><option value="loc1">CECH Library</option
-                ><option value="loc2" selected="">CCM Library</option
+                ><option value="loc2">CCM Library</option
                 ><option value="loc3">Langsam Library</option></select
               ><select class="my-offers-select1"
                 ><option value="null" selected="">Payment Method</option
@@ -213,12 +212,73 @@
                 name="Submit Offer"
                 type="button"
                 class="my-offers-button5 button"
-                ><span><span>Counter Offer</span><br /></span></button></section
+				onclick="myCounter1()"
+                ><span><span id="myCounter1">Counter Offer</span><br /></span></button></section
             ><label class="my-offers-text91"
               ><span>A TON of chergers</span><br /></label></form></div></div
     ></div>
     <script
       defer=""
       src="https://unpkg.com/@teleporthq/teleport-custom-scripts"
-    ></script></body
+    ></script>
+	<script>
+		function myEdit1() {
+  var x = document.getElementById("myEdit1");
+  if (x.innerHTML === "Edit Offer") {
+    x.innerHTML = "Edit Submitted";
+  } else {
+    x.innerHTML = "Edit Submitted";
+  }
+}
+</script>
+<script>
+		function myEdit2() {
+  var x = document.getElementById("myEdit2");
+  if (x.innerHTML === "Edit Offer") {
+    x.innerHTML = "Edit Submitted";
+  } else {
+    x.innerHTML = "Edit Submitted";
+  }
+}
+</script>
+<script>
+		function myAccept1() {
+  var x = document.getElementById("myAccept1");
+  if (x.innerHTML === "Accept Offer") {
+    x.innerHTML = "Offer Accepted";
+  } else {
+    x.innerHTML = "Offer Accepted";
+  }
+}
+</script>
+<script>
+		function myCounter1() {
+  var x = document.getElementById("myCounter1");
+  if (x.innerHTML === "Counter Offer") {
+    x.innerHTML = "Counter Submitted";
+  } else {
+    x.innerHTML = "Counter Submitted";
+  }
+}
+</script>
+<script>
+		function myCancel1() {
+  var x = document.getElementById("myCancel1");
+  if (x.innerHTML === "Cancel") {
+    x.innerHTML = "Request Cancelled";
+  } else {
+    x.innerHTML = "Request Cancelled";
+  }
+}
+</script>
+<script>
+		function myCancel2() {
+  var x = document.getElementById("myCancel2");
+  if (x.innerHTML === "Cancel") {
+    x.innerHTML = "Request Cancelled";
+  } else {
+    x.innerHTML = "Request Cancelled";
+  }
+}
+</script></body
 ></html>
